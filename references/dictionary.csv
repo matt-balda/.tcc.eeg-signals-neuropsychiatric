@@ -1,0 +1,8 @@
+variavel,descricao,tipo,subtipo
+sex,Sexo do paciente,qualitativa,nominal
+age,Idade do paciente,quantitativa,discreta
+eeg.date,Data do registro do EEG,qualitativa,ordinal
+education,Anos de estudo do paciente,quantitativa,discreta
+IQ,Quociente de inteligência do paciente,quantitativa,continua
+main.disorder,Categoria principal do transtorno do paciente,qualitativa,nominal
+specific.disorder,Categoria específica do transtorno do paciente,qualitativa,nominal
