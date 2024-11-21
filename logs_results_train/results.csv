@@ -1,0 +1,197 @@
+style,final_epoch,"number_of_neurons",train_ratio,val_ratio,batch_size,dropout,"learning_rate",output_dim,input_dim,"aucs",mean_auc,"report",accuracy
+PCA + quantitative variables,33,"[2880, 1440, 700, 300, 140]",0.7,0.15,32,0.1,"0.0001",7,226,"[0.9254032258064516, 0.9804262722923011, 0.9684361549497849, 0.8685051593461784, 0.989786147462496, 0.9499589078622958, 0.9674222353056618]",0.9499911575750242,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.7037    0.5938    0.6441        32
+                  Anxiety disorder     0.9474    0.9474    0.9474        38
+                   Healthy control     0.7941    0.7941    0.7941        34
+                     Mood disorder     0.4419    0.4043    0.4222        47
+     Obsessive compulsive disorder     0.9268    0.9744    0.9500        39
+                     Schizophrenia     0.7547    0.8511    0.8000        47
+Trauma and stress related disorder     0.7955    0.8140    0.8046        43
+
+                          accuracy                         0.7643       280
+                         macro avg     0.7663    0.7684    0.7661       280
+                      weighted avg     0.7575    0.7643    0.7597       280
+",76.42857142857143
+PCA + quantitative variables,130,"[1024, 512, 256, 128, 64]",0.7,0.15,32,0.1,"0,00001",7,226,"[0.8444706113237169, 0.9736967957914873, 0.9746572104018913, 0.8564139197877334, 0.9891477816789019, 0.9522955523672885, 0.9653312788906009]",0.9365733071773743,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.5581    0.5581    0.5581        43
+                  Anxiety disorder     0.7838    0.8529    0.8169        34
+                   Healthy control     0.8200    0.9111    0.8632        45
+                     Mood disorder     0.5714    0.3902    0.4638        41
+     Obsessive compulsive disorder     0.9268    0.9744    0.9500        39
+                     Schizophrenia     0.8276    0.7059    0.7619        34
+Trauma and stress related disorder     0.7308    0.8636    0.7917        44
+
+                          accuracy                         0.7500       280
+                         macro avg     0.7455    0.7509    0.7436       280
+                      weighted avg     0.7408    0.7500    0.7408       280
+",75.0
+PSD + FC + quantitative variables,68,"[1440, 700, 350, 150, 70]",0.7,0.15,32,0.1,"0.0001",7,1143,"[0.9162046370967742, 0.971509351892127, 0.9720229555236728, 0.8704227924390467, 0.9967017767847643, 0.9661218153593278, 0.9534883720930233]",0.9494959573126766,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.5667    0.5312    0.5484        32
+                  Anxiety disorder     0.7292    0.9211    0.8140        38
+                   Healthy control     0.7838    0.8529    0.8169        34
+                     Mood disorder     0.5357    0.3191    0.4000        47
+     Obsessive compulsive disorder     0.9500    0.9744    0.9620        39
+                     Schizophrenia     0.7600    0.8085    0.7835        47
+Trauma and stress related disorder     0.7872    0.8605    0.8222        43
+
+                          accuracy                         0.7464       280
+                         macro avg     0.7304    0.7525    0.7353       280
+                      weighted avg     0.7296    0.7464    0.7313       280
+",74.64285714285714
+PCA + quantitative variables,134,"[1440, 700, 350, 150, 70]",0.7,0.15,32,0.08,"0,00001",7,226,"[0.884702620967742, 0.9895606785558939, 0.9679579148732664, 0.8568167290658387, 0.988190233003511, 0.9317870514108301, 0.9404376410558336]",0.9370646955618451,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.5000    0.4688    0.4839        32
+                  Anxiety disorder     0.7955    0.9211    0.8537        38
+                   Healthy control     0.7436    0.8529    0.7945        34
+                     Mood disorder     0.4634    0.4043    0.4318        47
+     Obsessive compulsive disorder     0.9048    0.9744    0.9383        39
+                     Schizophrenia     0.8837    0.8085    0.8444        47
+Trauma and stress related disorder     0.7805    0.7442    0.7619        43
+
+                          accuracy                         0.7357       280
+                         macro avg     0.7245    0.7392    0.7298       280
+                      weighted avg     0.7274    0.7357    0.7296       280
+",73.57142857142857
+PSD + FC + quantitative variables,127,"[1440, 700, 350, 150, 70]",0.7,0.15,32,0.1,"0,00001",7,1143,"[0.8998235887096775, 0.9565028273162244, 0.9654471544715447, 0.8053145831430919, 0.991701244813278, 0.9612820746963748, 0.9374938671376705]",0.9310807628982659,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.5161    0.5000    0.5079        32
+                  Anxiety disorder     0.7778    0.9211    0.8434        38
+                   Healthy control     0.7778    0.8235    0.8000        34
+                     Mood disorder     0.5000    0.3191    0.3896        47
+     Obsessive compulsive disorder     0.9268    0.9744    0.9500        39
+                     Schizophrenia     0.7917    0.8085    0.8000        47
+Trauma and stress related disorder     0.7143    0.8140    0.7609        43
+
+                          accuracy                         0.7321       280
+                         macro avg     0.7149    0.7372    0.7217       280
+                      weighted avg     0.7146    0.7321    0.7185       280
+",73.21428571428571
+PCA + quantitative variables,122,"[1440, 700, 350, 150, 70]",0.7,0.15,32,0.1,"0,00001",7,1143,"[0.9221270161290323, 0.9641148325358851, 0.9653275944524151, 0.842114875353849, 0.99361634216406, 0.9599123367728974, 0.9317044450986164]",0.9398453489295365,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.5806    0.5625    0.5714        32
+                  Anxiety disorder     0.7778    0.9211    0.8434        38
+                   Healthy control     0.7568    0.8235    0.7887        34
+                     Mood disorder     0.5161    0.3404    0.4103        47
+     Obsessive compulsive disorder     0.9500    0.9744    0.9620        39
+                     Schizophrenia     0.7600    0.8085    0.7835        47
+Trauma and stress related disorder     0.6522    0.6977    0.6742        43
+
+                          accuracy                         0.7250       280
+                         macro avg     0.7134    0.7326    0.7191       280
+                      weighted avg     0.7105    0.7250    0.7134       280
+",72.5
+PCA + quantitative variables,43,"[1024, 512, 256, 128, 64]",0.7,0.15,32,0.1,"0.0001",7,226,"[0.905367943548387, 0.9818399304045236, 0.9708273553323769, 0.8668614738380057, 0.9956378338121076, 0.9562597023102912, 0.9689922480620154]",0.9493980696153868,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.4706    0.5000    0.4848        32
+                  Anxiety disorder     0.8333    0.9211    0.8750        38
+                   Healthy control     0.7576    0.7353    0.7463        34
+                     Mood disorder     0.4474    0.3617    0.4000        47
+     Obsessive compulsive disorder     0.9500    0.9744    0.9620        39
+                     Schizophrenia     0.7400    0.7872    0.7629        47
+Trauma and stress related disorder     0.7907    0.7907    0.7907        43
+
+                          accuracy                         0.7214       280
+                         macro avg     0.7128    0.7243    0.7174       280
+                      weighted avg     0.7119    0.7214    0.7154       280
+",72.14285714285714
+PCA + quantitative variables,149,"[1024, 512, 256, 128, 64]",0.7,0.15,32,0.08,"0,00001",7,226,"[0.897429435483871, 0.9804262722923011, 0.9634146341463414, 0.8467719842936718, 0.9955314395148419, 0.9348004748424802, 0.9627121970366009]",0.9401552053728726,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.5667    0.5312    0.5484        32
+                  Anxiety disorder     0.7907    0.8947    0.8395        38
+                   Healthy control     0.6585    0.7941    0.7200        34
+                     Mood disorder     0.5000    0.3191    0.3896        47
+     Obsessive compulsive disorder     0.8636    0.9744    0.9157        39
+                     Schizophrenia     0.7292    0.7447    0.7368        47
+Trauma and stress related disorder     0.7727    0.7907    0.7816        43
+
+                          accuracy                         0.7143       280
+                         macro avg     0.6973    0.7213    0.7045       280
+                      weighted avg     0.6973    0.7143    0.7007       280
+",71.42857142857143
+PCA + quantitative variables,181,"[512, 256, 128, 64, 32]",0.7,0.15,32,0.08,"0,00001",7,226,"[0.780367943548387, 0.9496520226185298, 0.9061453849832616, 0.7870514108300612, 0.9794659006277263, 0.9072230846498037, 0.9190462172505152]",0.8898502806440407,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.5556    0.4688    0.5085        32
+                  Anxiety disorder     0.6596    0.8158    0.7294        38
+                   Healthy control     0.6316    0.7059    0.6667        34
+                     Mood disorder     0.5278    0.4043    0.4578        47
+     Obsessive compulsive disorder     0.9048    0.9744    0.9383        39
+                     Schizophrenia     0.6066    0.7872    0.6852        47
+Trauma and stress related disorder     0.7931    0.5349    0.6389        43
+
+                          accuracy                         0.6679       280
+                         macro avg     0.6684    0.6702    0.6607       280
+                      weighted avg     0.6679    0.6679    0.6587       280
+",66.78571428571429
+PSD + FC + quantitative variables,184,"[1440, 700, 350, 150, 70]",0.7,0.15,32,0.3,"0,00001",7,1143,"[0.8757560483870969, 0.9406263592866463, 0.9263510282161646, 0.7729887681490275, 0.9902117246515587, 0.9316957355492649, 0.9272887842213718]",0.9092740640658759,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.4848    0.5000    0.4923        32
+                  Anxiety disorder     0.5484    0.8947    0.6800        38
+                   Healthy control     0.7812    0.7353    0.7576        34
+                     Mood disorder     0.4118    0.1489    0.2188        47
+     Obsessive compulsive disorder     0.9024    0.9487    0.9250        39
+                     Schizophrenia     0.7292    0.7447    0.7368        47
+Trauma and stress related disorder     0.6596    0.7209    0.6889        43
+
+                          accuracy                         0.6607       280
+                         macro avg     0.6453    0.6705    0.6428       280
+                      weighted avg     0.6432    0.6607    0.6356       280
+",66.07142857142857
+Feature selection + quantitative variables,111,"[256, 128, 64, 32, 16]",0.7,0.15,32,0.1,"0,00001",7,117,"[0.6680947580645161, 0.6935624184428012, 0.8969392635102822, 0.6624965756551913, 0.9232897116714545, 0.7717103460871154, 0.7048376018055147]",0.7601329536052679,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.2000    0.0312    0.0541        32
+                  Anxiety disorder     0.3143    0.2895    0.3014        38
+                   Healthy control     0.4032    0.7353    0.5208        34
+                     Mood disorder     0.2676    0.4043    0.3220        47
+     Obsessive compulsive disorder     0.4359    0.8718    0.5812        39
+                     Schizophrenia     0.3158    0.1277    0.1818        47
+Trauma and stress related disorder     0.4000    0.0930    0.1509        43
+
+                          accuracy                         0.3571       280
+                         macro avg     0.3338    0.3647    0.3017       280
+                      weighted avg     0.3345    0.3571    0.2990       280
+",35.714285714285715
+PCA + quantitative variables,130,"[256, 128, 64, 32, 16]",0.7,0.15,32,0.08,"0,00001",7,226,"[0.7051411290322581, 0.828294910830796, 0.7857484457197512, 0.5494475390375307, 0.926907117778487, 0.781572459136152, 0.6676479246393877]",0.7492513608820518,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.2917    0.4375    0.3500        32
+                  Anxiety disorder     0.7500    0.0789    0.1429        38
+                   Healthy control     0.3191    0.4412    0.3704        34
+                     Mood disorder     0.1667    0.0213    0.0377        47
+     Obsessive compulsive disorder     0.3804    0.8974    0.5344        39
+                     Schizophrenia     0.5000    0.3617    0.4198        47
+Trauma and stress related disorder     0.2653    0.3023    0.2826        43
+
+                          accuracy                         0.3500       280
+                         macro avg     0.3819    0.3629    0.3054       280
+                      weighted avg     0.3795    0.3500    0.2990       280
+",35.0
+Feature selection + quantitative variables,43,"[128, 64, 32, 16, 8]",0.7,0.15,32,0.1,"0,00001",7,117,"[0.5223034274193549, 0.44845585036972596, 0.6743185078909613, 0.5288101543238061, 0.7129481859772316, 0.4992238151766962, 0.6198606613678737]",0.5722743717893785,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.5000    0.0312    0.0588        32
+                  Anxiety disorder     0.0000    0.0000    0.0000        38
+                   Healthy control     0.2759    0.2353    0.2540        34
+                     Mood disorder     0.0000    0.0000    0.0000        47
+     Obsessive compulsive disorder     0.1791    0.9231    0.3000        39
+                     Schizophrenia     1.0000    0.0213    0.0417        47
+Trauma and stress related disorder     0.3636    0.3721    0.3678        43
+
+                          accuracy                         0.2214       280
+                         macro avg     0.3312    0.2261    0.1460       280
+                      weighted avg     0.3393    0.2214    0.1428       280
+",22.142857142857142
+PCA + quantitative variables,49,"[128, 64, 32, 16, 8]",0.7,0.15,32,0.08,"0,00001",7,226,"[0.4248991935483871, 0.5726402783819052, 0.6044954567192731, 0.578577298876815, 0.7432705606979465, 0.5385809515112775, 0.5078010008831322]",0.5671806772312481,"                                    precision    recall  f1-score   support
+
+                Addictive disorder     0.0875    0.2188    0.1250        32
+                  Anxiety disorder     0.1557    0.5000    0.2375        38
+                   Healthy control     0.0000    0.0000    0.0000        34
+                     Mood disorder     0.2000    0.1277    0.1558        47
+     Obsessive compulsive disorder     0.0000    0.0000    0.0000        39
+                     Schizophrenia     0.2381    0.2128    0.2247        47
+Trauma and stress related disorder     0.1667    0.0233    0.0408        43
+
+                          accuracy                         0.1536       280
+                         macro avg     0.1211    0.1546    0.1120       280
+                      weighted avg     0.1303    0.1536    0.1167       280
+",15.357142857142858
