@@ -2,7 +2,7 @@
 name = "src"
 version = "0.0.1"
 description = ""
-authors = [" "]
+authors = ["Mateus Balda"]
 
 [tool.poetry.dependencies]
 python = "~3.10"
