@@ -1,4 +1,4 @@
-# <Título do projeto>
+# <Diagnóstico de transtornos mentais via EEG>
 
 Insira aqui um resumo do projeto que será construído. Tente apresentar uma justificativa para o projeto. É desejável que também se insira um [graphical abstract](https://www.elsevier.com/authors/tools-and-resources/visual-abstract).
 
@@ -57,7 +57,7 @@ Para mais informações sobre os comandos do Poetry, visite a [documentação of
 ├── docs/              # Documentação gerada através da biblioteca mkdocs
 ├── models/            # Modelos treinados e serializados, predições ou resumos de modelos
 ├── notebooks/         # Diretório contendo todos os notebooks utilizados nos passos
-├── references/        # Dicionários de dados, manuais e todo o material exploratório
+├── references/        # Dicionários de dados
 ├── src/               # Código fonte utilizado nesse projeto
 │   ├── data/          # Classes e funções utilizadas para download e processamento de dados
 │   ├── deployment/    # Classes e funções utilizadas para implantação do modelo

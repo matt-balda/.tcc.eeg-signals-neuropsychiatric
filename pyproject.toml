@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "src"
-version = "0.0.1"
+name = "packages-mental-disorder-eeg-data"
+version = "0.0.4"
 description = ""
-authors = ["Mateus Balda"]
+authors = ["Mateus Balda Mota", "Alessandro Bof de Oliveira"]
 
 [tool.poetry.dependencies]
 python = "~3.10"
@@ -18,10 +18,11 @@ mne = "^1.8.0"
 # mkdocs-material = "^8.3.9"
 # pre-commit = "^2.20.0"
 plotly = "^5.24.1"
+imblearn = "^0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
