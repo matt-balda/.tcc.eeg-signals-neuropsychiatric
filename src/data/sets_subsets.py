@@ -56,3 +56,4 @@ class Sets:
                 dfs_bands[band] = df[columns_band]
         
         return dfs_bands
+    

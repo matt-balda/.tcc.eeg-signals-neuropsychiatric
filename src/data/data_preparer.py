@@ -18,4 +18,3 @@ class DataPreparer:
         
     def get_dataframe(self):
         return self.df
-    
