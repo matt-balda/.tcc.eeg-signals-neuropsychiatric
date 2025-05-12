@@ -12,3 +12,9 @@
 synthetic samples main disorder ctgan (nome dados sintéticos) X
 synthetic samples specific disorder ctgan (nome dados sintéticos) X
 eeg-signals-classification-psychiatric 
+
+model_ann_classifier
+  "" _lstm_ ""
+
+EEGLSTMClassifier
+EEGLSTMClassifierMain
