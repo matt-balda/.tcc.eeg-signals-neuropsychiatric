@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "packages-mental-disorder-eeg-data"
-version = "0.0.4"
+name = "balda-neurokitx"
+version = "0.0.1"
 description = ""
 authors = ["Mateus Balda Mota", "Alessandro Bof de Oliveira"]
 

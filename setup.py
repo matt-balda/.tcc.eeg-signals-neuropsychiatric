@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='packages-mental-disorder-eeg-data',
-    version='0.0.4',
+    name='balda-neurokitx',
+    version='0.0.1',
     author='Mateus Balda Mota',
     author_email='mateusbalda89@gmail.com',
-    description='Pacote para manipular conjuntos',
+    description='Extensible package for neurophysiological data manipulation with an emphasis on mental disorders',
     #long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='',
