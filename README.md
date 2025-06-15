@@ -1,70 +1,42 @@
-# <Diagnóstico de transtornos mentais via EEG>
+# `BrainDx`: Binary and Multiclass Models for EEG Signals in Neuropsychiatric Disorder Classification
 
-Insira aqui um resumo do projeto que será construído. Tente apresentar uma justificativa para o projeto. É desejável que também se insira um [graphical abstract](https://www.elsevier.com/authors/tools-and-resources/visual-abstract).
+This project applies deep learning models to resting-state EEG data from Park et al. (2021).
 
----
-<!--
+[need to update]
 
-## Funcionalidades
+[graphical abstract](https://www.elsevier.com/authors/tools-and-resources/visual-abstract).
 
-Esse template foi inicialmente baseado no [template de ciência de dados do cookiecutter](https://drivendata.github.io/cookiecutter-data-science/), mas ao longo do tempo várias modificações foram sendo realizadas. Atualmente o template tem as seguintes características:
 
-- Utilização do arquivo `pyproject.toml` como centralizador de dependências;
-- Configuração para criação de aplicação `streamlit`;
-- Utilização de [jupyter notebooks](https://jupyter.org/) para arquivos de análise;
-- Documentação com o [mkdocs](https://www.mkdocs.org/) ([material design](https://squidfunk.github.io/mkdocs-material/) theme)
-
-## Instruções
-
-### Requisitos
-
-Para utilizar este template, você precisará de um ambiente com os seguintes softwares:
-
-- git
-- Python 3.8
-- Poetry `1.1.13` ou superior
-
-É aconselhável o uso do `pyenv` para o gerenciamento de versões do Python.
-
-Com o repositório clonado, você precisa navegar até a pasta local, usando o comando :
+### Directory organization
 
 ```
-cd REPOSITORIO
-```
-
-Estando na pasta do repositório, basta instalar as dependências do projeto utilizando o comando:
-
-```
-poetry install
-```
-
-Ele irá instalar todas as dependências contidas no arquivo `pyproject.toml`. Depois disso basta ativar o ambiente virtual criado pelo Poetry utilizando o comando:
-
-```
-poetry shell
-```
-
-Para mais informações sobre os comandos do Poetry, visite a [documentação oficial](https://python-poetry.org/docs/). -->
-
-### Organização de diretórios
-
-```
-.
-├── data/              # Diretório contendo todos os arquivos de dados
-│   ├── external/      # Arquivos de dados de fontes externas
-│   ├── processed/     # Arquivos de dados processados
-│   └── raw/           # Arquivos de dados originais, imutáveis
-├── docs/              # Documentação gerada através da biblioteca mkdocs
-├── models/            # Modelos treinados e serializados, predições ou resumos de modelos
-├── notebooks/         # Diretório contendo todos os notebooks utilizados nos passos
-├── references/        # Dicionários de dados
-├── src/               # Código fonte utilizado nesse projeto
-│   ├── data/          # Classes e funções utilizadas para download e processamento de dados
-│   ├── deployment/    # Classes e funções utilizadas para implantação do modelo
-│   └── model/         # Classes e funções utilizadas para modelagem
-├── app.py             # Arquivo com o código da aplicação do streamlit
-├── pyproject.toml     # Arquivo de dependências para reprodução do projeto
-├── poetry.lock        # Arquivo com sub-dependências do projeto principal
-└── README.md          # Informações gerais do projeto
-
+├── data/                # Directory containing all data files
+│   ├── processed/       # Processed and cleaned data files
+│   ├── raw/             # Original, immutable raw data files
+│   └── synthetic/       # Synthetically generated data files
+├── docs/                # Project documentation
+│   ├── assets/          # Assets like images for the documentation
+│   └── notebooks/       # Jupyter notebooks for exploration and analysis
+├── imgs/                # Generated images, plots, and figures
+├── models/              # Trained and serialized models
+├── references/          # Reference data, lookup tables, or data dictionaries
+├── results/             # Experiment results, predictions, and training logs
+│   ├── binary/          # Results for binary classification models
+│   ├── multiclass/      # Results for multiclass classification models
+│   └── training_logs/   # Logs from model training sessions
+├── src/                 # Source code for this project
+│   ├── data/            # Scripts and modules for data processing and handling
+│   ├── models/          # Scripts and modules for model training and evaluation
+│   └── notebooks/       # Supporting code or modules used by the notebooks
+├── .env                 # File for environment variables
+├── .gitignore           # Specifies files and directories for Git to ignore
+├── .python-version      # Specifies the project's Python version
+├── app.py               # Main file for a web application (e.g., Streamlit, Flask)
+├── init_pipeline.py     # Script to initialize a data or modeling pipeline
+├── LICENSE              # Project's software license
+├── mkdocs.yml           # Configuration file for the MkDocs documentation generator
+├── pyproject.toml       # Poetry file for project metadata and dependencies
+├── README.md            # General information about the project
+├── requirements.txt     # List of Python dependencies for reproducibility
+└── setup.py             # Setup script for making the project installable
 ```
