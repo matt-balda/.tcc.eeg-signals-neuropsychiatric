@@ -1,0 +1,1702 @@
+Disorder,Dict,DataFrame,Accuracy,AUC,Classification Report
+Acute stress disorder,df_dict_psd_all_bands,psd_all_bands,0.9210526315789473,0.9750692520775623,"              precision    recall  f1-score   support
+
+           0       0.90      0.95      0.92        19
+           1       0.94      0.89      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Acute stress disorder,df_dict_fc_all_bands,fc_all_bands,0.868421052631579,0.9473684210526316,"              precision    recall  f1-score   support
+
+           0       1.00      0.74      0.85        19
+           1       0.79      1.00      0.88        19
+
+    accuracy                           0.87        38
+   macro avg       0.90      0.87      0.87        38
+weighted avg       0.90      0.87      0.87        38
+"
+Acute stress disorder,df_dict_psd_fc_all_bands,psd_fc_all_bands,0.8421052631578947,0.8448753462603878,"              precision    recall  f1-score   support
+
+           0       0.93      0.74      0.82        19
+           1       0.78      0.95      0.86        19
+
+    accuracy                           0.84        38
+   macro avg       0.86      0.84      0.84        38
+weighted avg       0.86      0.84      0.84        38
+"
+Acute stress disorder,df_dict_psd_band,psd_delta,0.9210526315789473,0.9722991689750693,"              precision    recall  f1-score   support
+
+           0       0.86      1.00      0.93        19
+           1       1.00      0.84      0.91        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.92      0.92        38
+weighted avg       0.93      0.92      0.92        38
+"
+Acute stress disorder,df_dict_psd_band,psd_theta,0.8947368421052632,0.9196675900277008,"              precision    recall  f1-score   support
+
+           0       0.94      0.84      0.89        19
+           1       0.86      0.95      0.90        19
+
+    accuracy                           0.89        38
+   macro avg       0.90      0.89      0.89        38
+weighted avg       0.90      0.89      0.89        38
+"
+Acute stress disorder,df_dict_psd_band,psd_alpha,0.7894736842105263,0.8448753462603877,"              precision    recall  f1-score   support
+
+           0       0.87      0.68      0.76        19
+           1       0.74      0.89      0.81        19
+
+    accuracy                           0.79        38
+   macro avg       0.80      0.79      0.79        38
+weighted avg       0.80      0.79      0.79        38
+"
+Acute stress disorder,df_dict_psd_band,psd_beta,0.8421052631578947,0.9141274238227146,"              precision    recall  f1-score   support
+
+           0       0.88      0.79      0.83        19
+           1       0.81      0.89      0.85        19
+
+    accuracy                           0.84        38
+   macro avg       0.85      0.84      0.84        38
+weighted avg       0.85      0.84      0.84        38
+"
+Acute stress disorder,df_dict_psd_band,psd_highbeta,0.8947368421052632,0.8448753462603878,"              precision    recall  f1-score   support
+
+           0       1.00      0.79      0.88        19
+           1       0.83      1.00      0.90        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.89      0.89        38
+weighted avg       0.91      0.89      0.89        38
+"
+Acute stress disorder,df_dict_psd_band,psd_gamma,0.8947368421052632,0.9501385041551247,"              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89        19
+           1       0.89      0.89      0.89        19
+
+    accuracy                           0.89        38
+   macro avg       0.89      0.89      0.89        38
+weighted avg       0.89      0.89      0.89        38
+"
+Acute stress disorder,df_dict_fc_band,fc_delta,0.868421052631579,0.85595567867036,"              precision    recall  f1-score   support
+
+           0       0.89      0.84      0.86        19
+           1       0.85      0.89      0.87        19
+
+    accuracy                           0.87        38
+   macro avg       0.87      0.87      0.87        38
+weighted avg       0.87      0.87      0.87        38
+"
+Acute stress disorder,df_dict_fc_band,fc_theta,0.8947368421052632,0.9141274238227146,"              precision    recall  f1-score   support
+
+           0       0.94      0.84      0.89        19
+           1       0.86      0.95      0.90        19
+
+    accuracy                           0.89        38
+   macro avg       0.90      0.89      0.89        38
+weighted avg       0.90      0.89      0.89        38
+"
+Acute stress disorder,df_dict_fc_band,fc_alpha,0.8947368421052632,0.9390581717451525,"              precision    recall  f1-score   support
+
+           0       0.94      0.84      0.89        19
+           1       0.86      0.95      0.90        19
+
+    accuracy                           0.89        38
+   macro avg       0.90      0.89      0.89        38
+weighted avg       0.90      0.89      0.89        38
+"
+Acute stress disorder,df_dict_fc_band,fc_beta,0.7631578947368421,0.778393351800554,"              precision    recall  f1-score   support
+
+           0       0.86      0.63      0.73        19
+           1       0.71      0.89      0.79        19
+
+    accuracy                           0.76        38
+   macro avg       0.78      0.76      0.76        38
+weighted avg       0.78      0.76      0.76        38
+"
+Acute stress disorder,df_dict_fc_band,fc_highbeta,0.868421052631579,0.9085872576177285,"              precision    recall  f1-score   support
+
+           0       0.94      0.79      0.86        19
+           1       0.82      0.95      0.88        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Acute stress disorder,df_dict_fc_band,fc_gamma,0.8947368421052632,0.8781163434903048,"              precision    recall  f1-score   support
+
+           0       0.94      0.84      0.89        19
+           1       0.86      0.95      0.90        19
+
+    accuracy                           0.89        38
+   macro avg       0.90      0.89      0.89        38
+weighted avg       0.90      0.89      0.89        38
+"
+Acute stress disorder,df_dict_psd_fc_band,psd_fc_delta,0.868421052631579,0.8725761772853186,"              precision    recall  f1-score   support
+
+           0       0.94      0.79      0.86        19
+           1       0.82      0.95      0.88        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Acute stress disorder,df_dict_psd_fc_band,psd_fc_theta,0.8157894736842105,0.886426592797784,"              precision    recall  f1-score   support
+
+           0       0.93      0.68      0.79        19
+           1       0.75      0.95      0.84        19
+
+    accuracy                           0.82        38
+   macro avg       0.84      0.82      0.81        38
+weighted avg       0.84      0.82      0.81        38
+"
+Acute stress disorder,df_dict_psd_fc_band,psd_fc_alpha,0.8421052631578947,0.9085872576177285,"              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84        19
+           1       0.84      0.84      0.84        19
+
+    accuracy                           0.84        38
+   macro avg       0.84      0.84      0.84        38
+weighted avg       0.84      0.84      0.84        38
+"
+Acute stress disorder,df_dict_psd_fc_band,psd_fc_beta,0.868421052631579,0.8781163434903048,"              precision    recall  f1-score   support
+
+           0       1.00      0.74      0.85        19
+           1       0.79      1.00      0.88        19
+
+    accuracy                           0.87        38
+   macro avg       0.90      0.87      0.87        38
+weighted avg       0.90      0.87      0.87        38
+"
+Acute stress disorder,df_dict_psd_fc_band,psd_fc_highbeta,0.868421052631579,0.8393351800554016,"              precision    recall  f1-score   support
+
+           0       0.94      0.79      0.86        19
+           1       0.82      0.95      0.88        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Acute stress disorder,df_dict_psd_fc_band,psd_fc_gamma,0.868421052631579,0.8753462603878116,"              precision    recall  f1-score   support
+
+           0       0.94      0.79      0.86        19
+           1       0.82      0.95      0.88        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Adjustment disorder,df_dict_psd_all_bands,psd_all_bands,0.8421052631578947,0.8531855955678671,"              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84        19
+           1       0.84      0.84      0.84        19
+
+    accuracy                           0.84        38
+   macro avg       0.84      0.84      0.84        38
+weighted avg       0.84      0.84      0.84        38
+"
+Adjustment disorder,df_dict_fc_all_bands,fc_all_bands,0.8421052631578947,0.9141274238227147,"              precision    recall  f1-score   support
+
+           0       1.00      0.68      0.81        19
+           1       0.76      1.00      0.86        19
+
+    accuracy                           0.84        38
+   macro avg       0.88      0.84      0.84        38
+weighted avg       0.88      0.84      0.84        38
+"
+Adjustment disorder,df_dict_psd_fc_all_bands,psd_fc_all_bands,0.9210526315789473,0.9168975069252077,"              precision    recall  f1-score   support
+
+           0       1.00      0.84      0.91        19
+           1       0.86      1.00      0.93        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.92      0.92        38
+weighted avg       0.93      0.92      0.92        38
+"
+Adjustment disorder,df_dict_psd_band,psd_delta,0.8947368421052632,0.92797783933518,"              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89        19
+           1       0.89      0.89      0.89        19
+
+    accuracy                           0.89        38
+   macro avg       0.89      0.89      0.89        38
+weighted avg       0.89      0.89      0.89        38
+"
+Adjustment disorder,df_dict_psd_band,psd_theta,0.868421052631579,0.9058171745152355,"              precision    recall  f1-score   support
+
+           0       0.89      0.84      0.86        19
+           1       0.85      0.89      0.87        19
+
+    accuracy                           0.87        38
+   macro avg       0.87      0.87      0.87        38
+weighted avg       0.87      0.87      0.87        38
+"
+Adjustment disorder,df_dict_psd_band,psd_alpha,0.8947368421052632,0.9529085872576177,"              precision    recall  f1-score   support
+
+           0       0.83      1.00      0.90        19
+           1       1.00      0.79      0.88        19
+
+    accuracy                           0.89        38
+   macro avg       0.91      0.89      0.89        38
+weighted avg       0.91      0.89      0.89        38
+"
+Adjustment disorder,df_dict_psd_band,psd_beta,0.868421052631579,0.8947368421052632,"              precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88        19
+           1       0.94      0.79      0.86        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Adjustment disorder,df_dict_psd_band,psd_highbeta,0.8947368421052632,0.925207756232687,"              precision    recall  f1-score   support
+
+           0       0.86      0.95      0.90        19
+           1       0.94      0.84      0.89        19
+
+    accuracy                           0.89        38
+   macro avg       0.90      0.89      0.89        38
+weighted avg       0.90      0.89      0.89        38
+"
+Adjustment disorder,df_dict_psd_band,psd_gamma,0.9210526315789473,0.9667590027700831,"              precision    recall  f1-score   support
+
+           0       0.94      0.89      0.92        19
+           1       0.90      0.95      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Adjustment disorder,df_dict_fc_band,fc_delta,0.868421052631579,0.8614958448753463,"              precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88        19
+           1       0.94      0.79      0.86        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Adjustment disorder,df_dict_fc_band,fc_theta,0.7894736842105263,0.7590027700831026,"              precision    recall  f1-score   support
+
+           0       0.79      0.79      0.79        19
+           1       0.79      0.79      0.79        19
+
+    accuracy                           0.79        38
+   macro avg       0.79      0.79      0.79        38
+weighted avg       0.79      0.79      0.79        38
+"
+Adjustment disorder,df_dict_fc_band,fc_alpha,0.8421052631578947,0.850415512465374,"              precision    recall  f1-score   support
+
+           0       0.76      1.00      0.86        19
+           1       1.00      0.68      0.81        19
+
+    accuracy                           0.84        38
+   macro avg       0.88      0.84      0.84        38
+weighted avg       0.88      0.84      0.84        38
+"
+Adjustment disorder,df_dict_fc_band,fc_beta,0.8947368421052632,0.9307479224376731,"              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89        19
+           1       0.89      0.89      0.89        19
+
+    accuracy                           0.89        38
+   macro avg       0.89      0.89      0.89        38
+weighted avg       0.89      0.89      0.89        38
+"
+Adjustment disorder,df_dict_fc_band,fc_highbeta,0.9210526315789473,0.9529085872576177,"              precision    recall  f1-score   support
+
+           0       0.90      0.95      0.92        19
+           1       0.94      0.89      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Adjustment disorder,df_dict_fc_band,fc_gamma,0.868421052631579,0.853185595567867,"              precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88        19
+           1       0.94      0.79      0.86        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Adjustment disorder,df_dict_psd_fc_band,psd_fc_delta,0.9473684210526315,0.9335180055401662,"              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95        19
+           1       0.95      0.95      0.95        19
+
+    accuracy                           0.95        38
+   macro avg       0.95      0.95      0.95        38
+weighted avg       0.95      0.95      0.95        38
+"
+Adjustment disorder,df_dict_psd_fc_band,psd_fc_theta,0.9210526315789473,0.9445983379501385,"              precision    recall  f1-score   support
+
+           0       0.90      0.95      0.92        19
+           1       0.94      0.89      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Adjustment disorder,df_dict_psd_fc_band,psd_fc_alpha,0.9210526315789473,0.9058171745152355,"              precision    recall  f1-score   support
+
+           0       0.94      0.89      0.92        19
+           1       0.90      0.95      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Adjustment disorder,df_dict_psd_fc_band,psd_fc_beta,0.8421052631578947,0.9085872576177285,"              precision    recall  f1-score   support
+
+           0       0.93      0.74      0.82        19
+           1       0.78      0.95      0.86        19
+
+    accuracy                           0.84        38
+   macro avg       0.86      0.84      0.84        38
+weighted avg       0.86      0.84      0.84        38
+"
+Adjustment disorder,df_dict_psd_fc_band,psd_fc_highbeta,0.868421052631579,0.9085872576177285,"              precision    recall  f1-score   support
+
+           0       0.85      0.89      0.87        19
+           1       0.89      0.84      0.86        19
+
+    accuracy                           0.87        38
+   macro avg       0.87      0.87      0.87        38
+weighted avg       0.87      0.87      0.87        38
+"
+Adjustment disorder,df_dict_psd_fc_band,psd_fc_gamma,0.8157894736842105,0.8227146814404432,"              precision    recall  f1-score   support
+
+           0       0.88      0.74      0.80        19
+           1       0.77      0.89      0.83        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.81        38
+weighted avg       0.82      0.82      0.81        38
+"
+Alcohol use disorder,df_dict_psd_all_bands,psd_all_bands,0.8421052631578947,0.8781163434903047,"              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84        19
+           1       0.84      0.84      0.84        19
+
+    accuracy                           0.84        38
+   macro avg       0.84      0.84      0.84        38
+weighted avg       0.84      0.84      0.84        38
+"
+Alcohol use disorder,df_dict_fc_all_bands,fc_all_bands,0.631578947368421,0.662049861495845,"              precision    recall  f1-score   support
+
+           0       0.61      0.74      0.67        19
+           1       0.67      0.53      0.59        19
+
+    accuracy                           0.63        38
+   macro avg       0.64      0.63      0.63        38
+weighted avg       0.64      0.63      0.63        38
+"
+Alcohol use disorder,df_dict_psd_fc_all_bands,psd_fc_all_bands,0.5789473684210527,0.49307479224376727,"              precision    recall  f1-score   support
+
+           0       0.60      0.47      0.53        19
+           1       0.57      0.68      0.62        19
+
+    accuracy                           0.58        38
+   macro avg       0.58      0.58      0.57        38
+weighted avg       0.58      0.58      0.57        38
+"
+Alcohol use disorder,df_dict_psd_band,psd_delta,0.868421052631579,0.9362880886426592,"              precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88        19
+           1       0.94      0.79      0.86        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Alcohol use disorder,df_dict_psd_band,psd_theta,0.8157894736842105,0.8227146814404432,"              precision    recall  f1-score   support
+
+           0       0.88      0.74      0.80        19
+           1       0.77      0.89      0.83        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.81        38
+weighted avg       0.82      0.82      0.81        38
+"
+Alcohol use disorder,df_dict_psd_band,psd_alpha,0.8421052631578947,0.8337950138504155,"              precision    recall  f1-score   support
+
+           0       0.81      0.89      0.85        19
+           1       0.88      0.79      0.83        19
+
+    accuracy                           0.84        38
+   macro avg       0.85      0.84      0.84        38
+weighted avg       0.85      0.84      0.84        38
+"
+Alcohol use disorder,df_dict_psd_band,psd_beta,0.868421052631579,0.8448753462603877,"              precision    recall  f1-score   support
+
+           0       0.79      1.00      0.88        19
+           1       1.00      0.74      0.85        19
+
+    accuracy                           0.87        38
+   macro avg       0.90      0.87      0.87        38
+weighted avg       0.90      0.87      0.87        38
+"
+Alcohol use disorder,df_dict_psd_band,psd_highbeta,0.8157894736842105,0.8033240997229917,"              precision    recall  f1-score   support
+
+           0       0.93      0.68      0.79        19
+           1       0.75      0.95      0.84        19
+
+    accuracy                           0.82        38
+   macro avg       0.84      0.82      0.81        38
+weighted avg       0.84      0.82      0.81        38
+"
+Alcohol use disorder,df_dict_psd_band,psd_gamma,0.868421052631579,0.9113573407202216,"              precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88        19
+           1       0.94      0.79      0.86        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Alcohol use disorder,df_dict_fc_band,fc_delta,0.868421052631579,0.8947368421052632,"              precision    recall  f1-score   support
+
+           0       0.94      0.79      0.86        19
+           1       0.82      0.95      0.88        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Alcohol use disorder,df_dict_fc_band,fc_theta,0.7368421052631579,0.6398891966759003,"              precision    recall  f1-score   support
+
+           0       0.71      0.79      0.75        19
+           1       0.76      0.68      0.72        19
+
+    accuracy                           0.74        38
+   macro avg       0.74      0.74      0.74        38
+weighted avg       0.74      0.74      0.74        38
+"
+Alcohol use disorder,df_dict_fc_band,fc_alpha,0.7631578947368421,0.8005540166204986,"              precision    recall  f1-score   support
+
+           0       0.86      0.63      0.73        19
+           1       0.71      0.89      0.79        19
+
+    accuracy                           0.76        38
+   macro avg       0.78      0.76      0.76        38
+weighted avg       0.78      0.76      0.76        38
+"
+Alcohol use disorder,df_dict_fc_band,fc_beta,0.6578947368421053,0.6038781163434903,"              precision    recall  f1-score   support
+
+           0       0.71      0.53      0.61        19
+           1       0.62      0.79      0.70        19
+
+    accuracy                           0.66        38
+   macro avg       0.67      0.66      0.65        38
+weighted avg       0.67      0.66      0.65        38
+"
+Alcohol use disorder,df_dict_fc_band,fc_highbeta,0.6578947368421053,0.5872576177285319,"              precision    recall  f1-score   support
+
+           0       0.88      0.37      0.52        19
+           1       0.60      0.95      0.73        19
+
+    accuracy                           0.66        38
+   macro avg       0.74      0.66      0.63        38
+weighted avg       0.74      0.66      0.63        38
+"
+Alcohol use disorder,df_dict_fc_band,fc_gamma,0.7894736842105263,0.8393351800554016,"              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78        19
+           1       0.76      0.84      0.80        19
+
+    accuracy                           0.79        38
+   macro avg       0.79      0.79      0.79        38
+weighted avg       0.79      0.79      0.79        38
+"
+Alcohol use disorder,df_dict_psd_fc_band,psd_fc_delta,0.6842105263157895,0.6869806094182825,"              precision    recall  f1-score   support
+
+           0       0.71      0.63      0.67        19
+           1       0.67      0.74      0.70        19
+
+    accuracy                           0.68        38
+   macro avg       0.69      0.68      0.68        38
+weighted avg       0.69      0.68      0.68        38
+"
+Alcohol use disorder,df_dict_psd_fc_band,psd_fc_theta,0.7368421052631579,0.8254847645429363,"              precision    recall  f1-score   support
+
+           0       0.74      0.74      0.74        19
+           1       0.74      0.74      0.74        19
+
+    accuracy                           0.74        38
+   macro avg       0.74      0.74      0.74        38
+weighted avg       0.74      0.74      0.74        38
+"
+Alcohol use disorder,df_dict_psd_fc_band,psd_fc_alpha,0.8157894736842105,0.8199445983379501,"              precision    recall  f1-score   support
+
+           0       0.77      0.89      0.83        19
+           1       0.88      0.74      0.80        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.81        38
+weighted avg       0.82      0.82      0.81        38
+"
+Alcohol use disorder,df_dict_psd_fc_band,psd_fc_beta,0.6842105263157895,0.6731301939058171,"              precision    recall  f1-score   support
+
+           0       0.67      0.74      0.70        19
+           1       0.71      0.63      0.67        19
+
+    accuracy                           0.68        38
+   macro avg       0.69      0.68      0.68        38
+weighted avg       0.69      0.68      0.68        38
+"
+Alcohol use disorder,df_dict_psd_fc_band,psd_fc_highbeta,0.6842105263157895,0.6759002770083102,"              precision    recall  f1-score   support
+
+           0       0.89      0.42      0.57        19
+           1       0.62      0.95      0.75        19
+
+    accuracy                           0.68        38
+   macro avg       0.75      0.68      0.66        38
+weighted avg       0.75      0.68      0.66        38
+"
+Alcohol use disorder,df_dict_psd_fc_band,psd_fc_gamma,0.8157894736842105,0.7617728531855955,"              precision    recall  f1-score   support
+
+           0       0.77      0.89      0.83        19
+           1       0.88      0.74      0.80        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.81        38
+weighted avg       0.82      0.82      0.81        38
+"
+Behavioral addiction disorder,df_dict_psd_all_bands,psd_all_bands,0.631578947368421,0.5872576177285318,"              precision    recall  f1-score   support
+
+           0       0.61      0.74      0.67        19
+           1       0.67      0.53      0.59        19
+
+    accuracy                           0.63        38
+   macro avg       0.64      0.63      0.63        38
+weighted avg       0.64      0.63      0.63        38
+"
+Behavioral addiction disorder,df_dict_fc_all_bands,fc_all_bands,0.6578947368421053,0.5817174515235458,"              precision    recall  f1-score   support
+
+           0       0.64      0.74      0.68        19
+           1       0.69      0.58      0.63        19
+
+    accuracy                           0.66        38
+   macro avg       0.66      0.66      0.66        38
+weighted avg       0.66      0.66      0.66        38
+"
+Behavioral addiction disorder,df_dict_psd_fc_all_bands,psd_fc_all_bands,0.7105263157894737,0.6814404432132963,"              precision    recall  f1-score   support
+
+           0       0.75      0.63      0.69        19
+           1       0.68      0.79      0.73        19
+
+    accuracy                           0.71        38
+   macro avg       0.72      0.71      0.71        38
+weighted avg       0.72      0.71      0.71        38
+"
+Behavioral addiction disorder,df_dict_psd_band,psd_delta,0.7105263157894737,0.6925207756232687,"              precision    recall  f1-score   support
+
+           0       0.65      0.89      0.76        19
+           1       0.83      0.53      0.65        19
+
+    accuracy                           0.71        38
+   macro avg       0.74      0.71      0.70        38
+weighted avg       0.74      0.71      0.70        38
+"
+Behavioral addiction disorder,df_dict_psd_band,psd_theta,0.7368421052631579,0.6592797783933518,"              precision    recall  f1-score   support
+
+           0       0.74      0.74      0.74        19
+           1       0.74      0.74      0.74        19
+
+    accuracy                           0.74        38
+   macro avg       0.74      0.74      0.74        38
+weighted avg       0.74      0.74      0.74        38
+"
+Behavioral addiction disorder,df_dict_psd_band,psd_alpha,0.7368421052631579,0.7506925207756232,"              precision    recall  f1-score   support
+
+           0       0.67      0.95      0.78        19
+           1       0.91      0.53      0.67        19
+
+    accuracy                           0.74        38
+   macro avg       0.79      0.74      0.72        38
+weighted avg       0.79      0.74      0.72        38
+"
+Behavioral addiction disorder,df_dict_psd_band,psd_beta,0.6842105263157895,0.6897506925207756,"              precision    recall  f1-score   support
+
+           0       0.77      0.53      0.62        19
+           1       0.64      0.84      0.73        19
+
+    accuracy                           0.68        38
+   macro avg       0.70      0.68      0.68        38
+weighted avg       0.70      0.68      0.68        38
+"
+Behavioral addiction disorder,df_dict_psd_band,psd_highbeta,0.7105263157894737,0.6869806094182827,"              precision    recall  f1-score   support
+
+           0       0.67      0.84      0.74        19
+           1       0.79      0.58      0.67        19
+
+    accuracy                           0.71        38
+   macro avg       0.73      0.71      0.71        38
+weighted avg       0.73      0.71      0.71        38
+"
+Behavioral addiction disorder,df_dict_psd_band,psd_gamma,0.7368421052631579,0.7534626038781164,"              precision    recall  f1-score   support
+
+           0       0.70      0.84      0.76        19
+           1       0.80      0.63      0.71        19
+
+    accuracy                           0.74        38
+   macro avg       0.75      0.74      0.73        38
+weighted avg       0.75      0.74      0.73        38
+"
+Behavioral addiction disorder,df_dict_fc_band,fc_delta,0.7105263157894737,0.7008310249307479,"              precision    recall  f1-score   support
+
+           0       0.67      0.84      0.74        19
+           1       0.79      0.58      0.67        19
+
+    accuracy                           0.71        38
+   macro avg       0.73      0.71      0.71        38
+weighted avg       0.73      0.71      0.71        38
+"
+Behavioral addiction disorder,df_dict_fc_band,fc_theta,0.7631578947368421,0.7950138504155124,"              precision    recall  f1-score   support
+
+           0       0.71      0.89      0.79        19
+           1       0.86      0.63      0.73        19
+
+    accuracy                           0.76        38
+   macro avg       0.78      0.76      0.76        38
+weighted avg       0.78      0.76      0.76        38
+"
+Behavioral addiction disorder,df_dict_fc_band,fc_alpha,0.6842105263157895,0.7063711911357341,"              precision    recall  f1-score   support
+
+           0       0.71      0.63      0.67        19
+           1       0.67      0.74      0.70        19
+
+    accuracy                           0.68        38
+   macro avg       0.69      0.68      0.68        38
+weighted avg       0.69      0.68      0.68        38
+"
+Behavioral addiction disorder,df_dict_fc_band,fc_beta,0.7368421052631579,0.7950138504155124,"              precision    recall  f1-score   support
+
+           0       0.70      0.84      0.76        19
+           1       0.80      0.63      0.71        19
+
+    accuracy                           0.74        38
+   macro avg       0.75      0.74      0.73        38
+weighted avg       0.75      0.74      0.73        38
+"
+Behavioral addiction disorder,df_dict_fc_band,fc_highbeta,0.631578947368421,0.6537396121883656,"              precision    recall  f1-score   support
+
+           0       0.65      0.58      0.61        19
+           1       0.62      0.68      0.65        19
+
+    accuracy                           0.63        38
+   macro avg       0.63      0.63      0.63        38
+weighted avg       0.63      0.63      0.63        38
+"
+Behavioral addiction disorder,df_dict_fc_band,fc_gamma,0.6578947368421053,0.7562326869806094,"              precision    recall  f1-score   support
+
+           0       0.69      0.58      0.63        19
+           1       0.64      0.74      0.68        19
+
+    accuracy                           0.66        38
+   macro avg       0.66      0.66      0.66        38
+weighted avg       0.66      0.66      0.66        38
+"
+Behavioral addiction disorder,df_dict_psd_fc_band,psd_fc_delta,0.631578947368421,0.5983379501385041,"              precision    recall  f1-score   support
+
+           0       0.69      0.47      0.56        19
+           1       0.60      0.79      0.68        19
+
+    accuracy                           0.63        38
+   macro avg       0.65      0.63      0.62        38
+weighted avg       0.65      0.63      0.62        38
+"
+Behavioral addiction disorder,df_dict_psd_fc_band,psd_fc_theta,0.8157894736842105,0.7977839335180055,"              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82        19
+           1       0.83      0.79      0.81        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.82        38
+weighted avg       0.82      0.82      0.82        38
+"
+Behavioral addiction disorder,df_dict_psd_fc_band,psd_fc_alpha,0.6578947368421053,0.6648199445983379,"              precision    recall  f1-score   support
+
+           0       0.64      0.74      0.68        19
+           1       0.69      0.58      0.63        19
+
+    accuracy                           0.66        38
+   macro avg       0.66      0.66      0.66        38
+weighted avg       0.66      0.66      0.66        38
+"
+Behavioral addiction disorder,df_dict_psd_fc_band,psd_fc_beta,0.631578947368421,0.6759002770083102,"              precision    recall  f1-score   support
+
+           0       0.65      0.58      0.61        19
+           1       0.62      0.68      0.65        19
+
+    accuracy                           0.63        38
+   macro avg       0.63      0.63      0.63        38
+weighted avg       0.63      0.63      0.63        38
+"
+Behavioral addiction disorder,df_dict_psd_fc_band,psd_fc_highbeta,0.6842105263157895,0.6703601108033241,"              precision    recall  f1-score   support
+
+           0       0.77      0.53      0.62        19
+           1       0.64      0.84      0.73        19
+
+    accuracy                           0.68        38
+   macro avg       0.70      0.68      0.68        38
+weighted avg       0.70      0.68      0.68        38
+"
+Behavioral addiction disorder,df_dict_psd_fc_band,psd_fc_gamma,0.6842105263157895,0.6952908587257618,"              precision    recall  f1-score   support
+
+           0       0.73      0.58      0.65        19
+           1       0.65      0.79      0.71        19
+
+    accuracy                           0.68        38
+   macro avg       0.69      0.68      0.68        38
+weighted avg       0.69      0.68      0.68        38
+"
+Bipolar disorder,df_dict_psd_all_bands,psd_all_bands,0.7105263157894737,0.6620498614958449,"              precision    recall  f1-score   support
+
+           0       0.64      0.95      0.77        19
+           1       0.90      0.47      0.62        19
+
+    accuracy                           0.71        38
+   macro avg       0.77      0.71      0.69        38
+weighted avg       0.77      0.71      0.69        38
+"
+Bipolar disorder,df_dict_fc_all_bands,fc_all_bands,0.7894736842105263,0.7229916897506925,"              precision    recall  f1-score   support
+
+           0       0.87      0.68      0.76        19
+           1       0.74      0.89      0.81        19
+
+    accuracy                           0.79        38
+   macro avg       0.80      0.79      0.79        38
+weighted avg       0.80      0.79      0.79        38
+"
+Bipolar disorder,df_dict_psd_fc_all_bands,psd_fc_all_bands,0.7894736842105263,0.8088642659279778,"              precision    recall  f1-score   support
+
+           0       0.72      0.95      0.82        19
+           1       0.92      0.63      0.75        19
+
+    accuracy                           0.79        38
+   macro avg       0.82      0.79      0.78        38
+weighted avg       0.82      0.79      0.78        38
+"
+Bipolar disorder,df_dict_psd_band,psd_delta,0.868421052631579,0.9113573407202216,"              precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88        19
+           1       0.94      0.79      0.86        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Bipolar disorder,df_dict_psd_band,psd_theta,0.8421052631578947,0.8476454293628809,"              precision    recall  f1-score   support
+
+           0       0.81      0.89      0.85        19
+           1       0.88      0.79      0.83        19
+
+    accuracy                           0.84        38
+   macro avg       0.85      0.84      0.84        38
+weighted avg       0.85      0.84      0.84        38
+"
+Bipolar disorder,df_dict_psd_band,psd_alpha,0.7631578947368421,0.778393351800554,"              precision    recall  f1-score   support
+
+           0       0.69      0.95      0.80        19
+           1       0.92      0.58      0.71        19
+
+    accuracy                           0.76        38
+   macro avg       0.80      0.76      0.75        38
+weighted avg       0.80      0.76      0.75        38
+"
+Bipolar disorder,df_dict_psd_band,psd_beta,0.8947368421052632,0.9058171745152354,"              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89        19
+           1       0.89      0.89      0.89        19
+
+    accuracy                           0.89        38
+   macro avg       0.89      0.89      0.89        38
+weighted avg       0.89      0.89      0.89        38
+"
+Bipolar disorder,df_dict_psd_band,psd_highbeta,0.8157894736842105,0.8393351800554016,"              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82        19
+           1       0.83      0.79      0.81        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.82        38
+weighted avg       0.82      0.82      0.82        38
+"
+Bipolar disorder,df_dict_psd_band,psd_gamma,0.8157894736842105,0.8448753462603878,"              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82        19
+           1       0.83      0.79      0.81        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.82        38
+weighted avg       0.82      0.82      0.82        38
+"
+Bipolar disorder,df_dict_fc_band,fc_delta,0.7631578947368421,0.7506925207756232,"              precision    recall  f1-score   support
+
+           0       0.75      0.79      0.77        19
+           1       0.78      0.74      0.76        19
+
+    accuracy                           0.76        38
+   macro avg       0.76      0.76      0.76        38
+weighted avg       0.76      0.76      0.76        38
+"
+Bipolar disorder,df_dict_fc_band,fc_theta,0.6842105263157895,0.6814404432132964,"              precision    recall  f1-score   support
+
+           0       0.65      0.79      0.71        19
+           1       0.73      0.58      0.65        19
+
+    accuracy                           0.68        38
+   macro avg       0.69      0.68      0.68        38
+weighted avg       0.69      0.68      0.68        38
+"
+Bipolar disorder,df_dict_fc_band,fc_alpha,0.7894736842105263,0.703601108033241,"              precision    recall  f1-score   support
+
+           0       0.74      0.89      0.81        19
+           1       0.87      0.68      0.76        19
+
+    accuracy                           0.79        38
+   macro avg       0.80      0.79      0.79        38
+weighted avg       0.80      0.79      0.79        38
+"
+Bipolar disorder,df_dict_fc_band,fc_beta,0.7894736842105263,0.8393351800554016,"              precision    recall  f1-score   support
+
+           0       0.87      0.68      0.76        19
+           1       0.74      0.89      0.81        19
+
+    accuracy                           0.79        38
+   macro avg       0.80      0.79      0.79        38
+weighted avg       0.80      0.79      0.79        38
+"
+Bipolar disorder,df_dict_fc_band,fc_highbeta,0.7894736842105263,0.8282548476454292,"              precision    recall  f1-score   support
+
+           0       0.79      0.79      0.79        19
+           1       0.79      0.79      0.79        19
+
+    accuracy                           0.79        38
+   macro avg       0.79      0.79      0.79        38
+weighted avg       0.79      0.79      0.79        38
+"
+Bipolar disorder,df_dict_fc_band,fc_gamma,0.7105263157894737,0.6980609418282548,"              precision    recall  f1-score   support
+
+           0       0.72      0.68      0.70        19
+           1       0.70      0.74      0.72        19
+
+    accuracy                           0.71        38
+   macro avg       0.71      0.71      0.71        38
+weighted avg       0.71      0.71      0.71        38
+"
+Bipolar disorder,df_dict_psd_fc_band,psd_fc_delta,0.631578947368421,0.5844875346260389,"              precision    recall  f1-score   support
+
+           0       0.67      0.53      0.59        19
+           1       0.61      0.74      0.67        19
+
+    accuracy                           0.63        38
+   macro avg       0.64      0.63      0.63        38
+weighted avg       0.64      0.63      0.63        38
+"
+Bipolar disorder,df_dict_psd_fc_band,psd_fc_theta,0.7368421052631579,0.7396121883656509,"              precision    recall  f1-score   support
+
+           0       0.85      0.58      0.69        19
+           1       0.68      0.89      0.77        19
+
+    accuracy                           0.74        38
+   macro avg       0.76      0.74      0.73        38
+weighted avg       0.76      0.74      0.73        38
+"
+Bipolar disorder,df_dict_psd_fc_band,psd_fc_alpha,0.7368421052631579,0.6509695290858726,"              precision    recall  f1-score   support
+
+           0       0.76      0.68      0.72        19
+           1       0.71      0.79      0.75        19
+
+    accuracy                           0.74        38
+   macro avg       0.74      0.74      0.74        38
+weighted avg       0.74      0.74      0.74        38
+"
+Bipolar disorder,df_dict_psd_fc_band,psd_fc_beta,0.7894736842105263,0.814404432132964,"              precision    recall  f1-score   support
+
+           0       0.74      0.89      0.81        19
+           1       0.87      0.68      0.76        19
+
+    accuracy                           0.79        38
+   macro avg       0.80      0.79      0.79        38
+weighted avg       0.80      0.79      0.79        38
+"
+Bipolar disorder,df_dict_psd_fc_band,psd_fc_highbeta,0.7631578947368421,0.7617728531855955,"              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76        19
+           1       0.75      0.79      0.77        19
+
+    accuracy                           0.76        38
+   macro avg       0.76      0.76      0.76        38
+weighted avg       0.76      0.76      0.76        38
+"
+Bipolar disorder,df_dict_psd_fc_band,psd_fc_gamma,0.8421052631578947,0.8282548476454292,"              precision    recall  f1-score   support
+
+           0       0.78      0.95      0.86        19
+           1       0.93      0.74      0.82        19
+
+    accuracy                           0.84        38
+   macro avg       0.86      0.84      0.84        38
+weighted avg       0.86      0.84      0.84        38
+"
+Depressive disorder,df_dict_psd_all_bands,psd_all_bands,0.85,0.9174999999999999,"              precision    recall  f1-score   support
+
+           0       0.78      0.97      0.87        40
+           1       0.97      0.72      0.83        40
+
+    accuracy                           0.85        80
+   macro avg       0.87      0.85      0.85        80
+weighted avg       0.87      0.85      0.85        80
+"
+Depressive disorder,df_dict_fc_all_bands,fc_all_bands,0.775,0.83,"              precision    recall  f1-score   support
+
+           0       0.72      0.90      0.80        40
+           1       0.87      0.65      0.74        40
+
+    accuracy                           0.78        80
+   macro avg       0.79      0.78      0.77        80
+weighted avg       0.79      0.78      0.77        80
+"
+Depressive disorder,df_dict_psd_fc_all_bands,psd_fc_all_bands,0.8375,0.8775,"              precision    recall  f1-score   support
+
+           0       0.89      0.78      0.83        40
+           1       0.80      0.90      0.85        40
+
+    accuracy                           0.84        80
+   macro avg       0.84      0.84      0.84        80
+weighted avg       0.84      0.84      0.84        80
+"
+Depressive disorder,df_dict_psd_band,psd_delta,0.9125,0.9406249999999999,"              precision    recall  f1-score   support
+
+           0       0.85      1.00      0.92        40
+           1       1.00      0.82      0.90        40
+
+    accuracy                           0.91        80
+   macro avg       0.93      0.91      0.91        80
+weighted avg       0.93      0.91      0.91        80
+"
+Depressive disorder,df_dict_psd_band,psd_theta,0.8375,0.8775000000000001,"              precision    recall  f1-score   support
+
+           0       0.79      0.93      0.85        40
+           1       0.91      0.75      0.82        40
+
+    accuracy                           0.84        80
+   macro avg       0.85      0.84      0.84        80
+weighted avg       0.85      0.84      0.84        80
+"
+Depressive disorder,df_dict_psd_band,psd_alpha,0.8625,0.8993749999999999,"              precision    recall  f1-score   support
+
+           0       0.84      0.90      0.87        40
+           1       0.89      0.82      0.86        40
+
+    accuracy                           0.86        80
+   macro avg       0.86      0.86      0.86        80
+weighted avg       0.86      0.86      0.86        80
+"
+Depressive disorder,df_dict_psd_band,psd_beta,0.8875,0.95375,"              precision    recall  f1-score   support
+
+           0       0.84      0.95      0.89        40
+           1       0.94      0.82      0.88        40
+
+    accuracy                           0.89        80
+   macro avg       0.89      0.89      0.89        80
+weighted avg       0.89      0.89      0.89        80
+"
+Depressive disorder,df_dict_psd_band,psd_highbeta,0.8875,0.9056249999999999,"              precision    recall  f1-score   support
+
+           0       0.84      0.95      0.89        40
+           1       0.94      0.82      0.88        40
+
+    accuracy                           0.89        80
+   macro avg       0.89      0.89      0.89        80
+weighted avg       0.89      0.89      0.89        80
+"
+Depressive disorder,df_dict_psd_band,psd_gamma,0.8875,0.9325,"              precision    recall  f1-score   support
+
+           0       0.84      0.95      0.89        40
+           1       0.94      0.82      0.88        40
+
+    accuracy                           0.89        80
+   macro avg       0.89      0.89      0.89        80
+weighted avg       0.89      0.89      0.89        80
+"
+Depressive disorder,df_dict_fc_band,fc_delta,0.7875,0.805,"              precision    recall  f1-score   support
+
+           0       0.77      0.82      0.80        40
+           1       0.81      0.75      0.78        40
+
+    accuracy                           0.79        80
+   macro avg       0.79      0.79      0.79        80
+weighted avg       0.79      0.79      0.79        80
+"
+Depressive disorder,df_dict_fc_band,fc_theta,0.8625,0.8975,"              precision    recall  f1-score   support
+
+           0       0.84      0.90      0.87        40
+           1       0.89      0.82      0.86        40
+
+    accuracy                           0.86        80
+   macro avg       0.86      0.86      0.86        80
+weighted avg       0.86      0.86      0.86        80
+"
+Depressive disorder,df_dict_fc_band,fc_alpha,0.875,0.9,"              precision    recall  f1-score   support
+
+           0       0.86      0.90      0.88        40
+           1       0.89      0.85      0.87        40
+
+    accuracy                           0.88        80
+   macro avg       0.88      0.88      0.87        80
+weighted avg       0.88      0.88      0.87        80
+"
+Depressive disorder,df_dict_fc_band,fc_beta,0.9625,0.96625,"              precision    recall  f1-score   support
+
+           0       0.93      1.00      0.96        40
+           1       1.00      0.93      0.96        40
+
+    accuracy                           0.96        80
+   macro avg       0.97      0.96      0.96        80
+weighted avg       0.97      0.96      0.96        80
+"
+Depressive disorder,df_dict_fc_band,fc_highbeta,0.8375,0.87125,"              precision    recall  f1-score   support
+
+           0       0.80      0.90      0.85        40
+           1       0.89      0.78      0.83        40
+
+    accuracy                           0.84        80
+   macro avg       0.84      0.84      0.84        80
+weighted avg       0.84      0.84      0.84        80
+"
+Depressive disorder,df_dict_fc_band,fc_gamma,0.8875,0.9356249999999999,"              precision    recall  f1-score   support
+
+           0       0.84      0.95      0.89        40
+           1       0.94      0.82      0.88        40
+
+    accuracy                           0.89        80
+   macro avg       0.89      0.89      0.89        80
+weighted avg       0.89      0.89      0.89        80
+"
+Depressive disorder,df_dict_psd_fc_band,psd_fc_delta,0.8,0.80625,"              precision    recall  f1-score   support
+
+           0       0.77      0.85      0.81        40
+           1       0.83      0.75      0.79        40
+
+    accuracy                           0.80        80
+   macro avg       0.80      0.80      0.80        80
+weighted avg       0.80      0.80      0.80        80
+"
+Depressive disorder,df_dict_psd_fc_band,psd_fc_theta,0.8875,0.9056250000000001,"              precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89        40
+           1       0.88      0.90      0.89        40
+
+    accuracy                           0.89        80
+   macro avg       0.89      0.89      0.89        80
+weighted avg       0.89      0.89      0.89        80
+"
+Depressive disorder,df_dict_psd_fc_band,psd_fc_alpha,0.825,0.868125,"              precision    recall  f1-score   support
+
+           0       0.82      0.82      0.82        40
+           1       0.82      0.82      0.82        40
+
+    accuracy                           0.82        80
+   macro avg       0.82      0.82      0.82        80
+weighted avg       0.82      0.82      0.82        80
+"
+Depressive disorder,df_dict_psd_fc_band,psd_fc_beta,0.8,0.805625,"              precision    recall  f1-score   support
+
+           0       0.79      0.82      0.80        40
+           1       0.82      0.78      0.79        40
+
+    accuracy                           0.80        80
+   macro avg       0.80      0.80      0.80        80
+weighted avg       0.80      0.80      0.80        80
+"
+Depressive disorder,df_dict_psd_fc_band,psd_fc_highbeta,0.8625,0.879375,"              precision    recall  f1-score   support
+
+           0       0.82      0.93      0.87        40
+           1       0.91      0.80      0.85        40
+
+    accuracy                           0.86        80
+   macro avg       0.87      0.86      0.86        80
+weighted avg       0.87      0.86      0.86        80
+"
+Depressive disorder,df_dict_psd_fc_band,psd_fc_gamma,0.8875,0.93,"              precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89        40
+           1       0.90      0.88      0.89        40
+
+    accuracy                           0.89        80
+   macro avg       0.89      0.89      0.89        80
+weighted avg       0.89      0.89      0.89        80
+"
+Panic disorder,df_dict_psd_all_bands,psd_all_bands,0.7894736842105263,0.8337950138504154,"              precision    recall  f1-score   support
+
+           0       0.92      0.63      0.75        19
+           1       0.72      0.95      0.82        19
+
+    accuracy                           0.79        38
+   macro avg       0.82      0.79      0.78        38
+weighted avg       0.82      0.79      0.78        38
+"
+Panic disorder,df_dict_fc_all_bands,fc_all_bands,0.7105263157894737,0.6620498614958449,"              precision    recall  f1-score   support
+
+           0       0.70      0.74      0.72        19
+           1       0.72      0.68      0.70        19
+
+    accuracy                           0.71        38
+   macro avg       0.71      0.71      0.71        38
+weighted avg       0.71      0.71      0.71        38
+"
+Panic disorder,df_dict_psd_fc_all_bands,psd_fc_all_bands,0.7894736842105263,0.7811634349030471,"              precision    recall  f1-score   support
+
+           0       0.79      0.79      0.79        19
+           1       0.79      0.79      0.79        19
+
+    accuracy                           0.79        38
+   macro avg       0.79      0.79      0.79        38
+weighted avg       0.79      0.79      0.79        38
+"
+Panic disorder,df_dict_psd_band,psd_delta,0.8421052631578947,0.89196675900277,"              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84        19
+           1       0.84      0.84      0.84        19
+
+    accuracy                           0.84        38
+   macro avg       0.84      0.84      0.84        38
+weighted avg       0.84      0.84      0.84        38
+"
+Panic disorder,df_dict_psd_band,psd_theta,0.7894736842105263,0.8282548476454293,"              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78        19
+           1       0.76      0.84      0.80        19
+
+    accuracy                           0.79        38
+   macro avg       0.79      0.79      0.79        38
+weighted avg       0.79      0.79      0.79        38
+"
+Panic disorder,df_dict_psd_band,psd_alpha,0.8157894736842105,0.883656509695291,"              precision    recall  f1-score   support
+
+           0       0.77      0.89      0.83        19
+           1       0.88      0.74      0.80        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.81        38
+weighted avg       0.82      0.82      0.81        38
+"
+Panic disorder,df_dict_psd_band,psd_beta,0.868421052631579,0.8587257617728532,"              precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88        19
+           1       0.94      0.79      0.86        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Panic disorder,df_dict_psd_band,psd_highbeta,0.8421052631578947,0.8781163434903048,"              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84        19
+           1       0.84      0.84      0.84        19
+
+    accuracy                           0.84        38
+   macro avg       0.84      0.84      0.84        38
+weighted avg       0.84      0.84      0.84        38
+"
+Panic disorder,df_dict_psd_band,psd_gamma,0.8421052631578947,0.9113573407202217,"              precision    recall  f1-score   support
+
+           0       0.78      0.95      0.86        19
+           1       0.93      0.74      0.82        19
+
+    accuracy                           0.84        38
+   macro avg       0.86      0.84      0.84        38
+weighted avg       0.86      0.84      0.84        38
+"
+Panic disorder,df_dict_fc_band,fc_delta,0.7894736842105263,0.74792243767313,"              precision    recall  f1-score   support
+
+           0       0.87      0.68      0.76        19
+           1       0.74      0.89      0.81        19
+
+    accuracy                           0.79        38
+   macro avg       0.80      0.79      0.79        38
+weighted avg       0.80      0.79      0.79        38
+"
+Panic disorder,df_dict_fc_band,fc_theta,0.8157894736842105,0.8725761772853187,"              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82        19
+           1       0.83      0.79      0.81        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.82        38
+weighted avg       0.82      0.82      0.82        38
+"
+Panic disorder,df_dict_fc_band,fc_alpha,0.7631578947368421,0.7894736842105263,"              precision    recall  f1-score   support
+
+           0       0.75      0.79      0.77        19
+           1       0.78      0.74      0.76        19
+
+    accuracy                           0.76        38
+   macro avg       0.76      0.76      0.76        38
+weighted avg       0.76      0.76      0.76        38
+"
+Panic disorder,df_dict_fc_band,fc_beta,0.6842105263157895,0.7091412742382271,"              precision    recall  f1-score   support
+
+           0       0.73      0.58      0.65        19
+           1       0.65      0.79      0.71        19
+
+    accuracy                           0.68        38
+   macro avg       0.69      0.68      0.68        38
+weighted avg       0.69      0.68      0.68        38
+"
+Panic disorder,df_dict_fc_band,fc_highbeta,0.7105263157894737,0.7313019390581718,"              precision    recall  f1-score   support
+
+           0       0.75      0.63      0.69        19
+           1       0.68      0.79      0.73        19
+
+    accuracy                           0.71        38
+   macro avg       0.72      0.71      0.71        38
+weighted avg       0.72      0.71      0.71        38
+"
+Panic disorder,df_dict_fc_band,fc_gamma,0.8157894736842105,0.7728531855955678,"              precision    recall  f1-score   support
+
+           0       0.93      0.68      0.79        19
+           1       0.75      0.95      0.84        19
+
+    accuracy                           0.82        38
+   macro avg       0.84      0.82      0.81        38
+weighted avg       0.84      0.82      0.81        38
+"
+Panic disorder,df_dict_psd_fc_band,psd_fc_delta,0.7894736842105263,0.8476454293628809,"              precision    recall  f1-score   support
+
+           0       0.79      0.79      0.79        19
+           1       0.79      0.79      0.79        19
+
+    accuracy                           0.79        38
+   macro avg       0.79      0.79      0.79        38
+weighted avg       0.79      0.79      0.79        38
+"
+Panic disorder,df_dict_psd_fc_band,psd_fc_theta,0.868421052631579,0.9168975069252077,"              precision    recall  f1-score   support
+
+           0       0.89      0.84      0.86        19
+           1       0.85      0.89      0.87        19
+
+    accuracy                           0.87        38
+   macro avg       0.87      0.87      0.87        38
+weighted avg       0.87      0.87      0.87        38
+"
+Panic disorder,df_dict_psd_fc_band,psd_fc_alpha,0.9210526315789473,0.9196675900277008,"              precision    recall  f1-score   support
+
+           0       0.94      0.89      0.92        19
+           1       0.90      0.95      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Panic disorder,df_dict_psd_fc_band,psd_fc_beta,0.868421052631579,0.8808864265927978,"              precision    recall  f1-score   support
+
+           0       0.89      0.84      0.86        19
+           1       0.85      0.89      0.87        19
+
+    accuracy                           0.87        38
+   macro avg       0.87      0.87      0.87        38
+weighted avg       0.87      0.87      0.87        38
+"
+Panic disorder,df_dict_psd_fc_band,psd_fc_highbeta,0.7631578947368421,0.7950138504155124,"              precision    recall  f1-score   support
+
+           0       0.75      0.79      0.77        19
+           1       0.78      0.74      0.76        19
+
+    accuracy                           0.76        38
+   macro avg       0.76      0.76      0.76        38
+weighted avg       0.76      0.76      0.76        38
+"
+Panic disorder,df_dict_psd_fc_band,psd_fc_gamma,0.7105263157894737,0.7257617728531855,"              precision    recall  f1-score   support
+
+           0       0.68      0.79      0.73        19
+           1       0.75      0.63      0.69        19
+
+    accuracy                           0.71        38
+   macro avg       0.72      0.71      0.71        38
+weighted avg       0.72      0.71      0.71        38
+"
+Posttraumatic stress disorder,df_dict_psd_all_bands,psd_all_bands,0.9210526315789473,0.9584487534626038,"              precision    recall  f1-score   support
+
+           0       1.00      0.84      0.91        19
+           1       0.86      1.00      0.93        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.92      0.92        38
+weighted avg       0.93      0.92      0.92        38
+"
+Posttraumatic stress disorder,df_dict_fc_all_bands,fc_all_bands,0.7631578947368421,0.6925207756232686,"              precision    recall  f1-score   support
+
+           0       0.86      0.63      0.73        19
+           1       0.71      0.89      0.79        19
+
+    accuracy                           0.76        38
+   macro avg       0.78      0.76      0.76        38
+weighted avg       0.78      0.76      0.76        38
+"
+Posttraumatic stress disorder,df_dict_psd_fc_all_bands,psd_fc_all_bands,0.8157894736842105,0.8421052631578947,"              precision    recall  f1-score   support
+
+           0       1.00      0.63      0.77        19
+           1       0.73      1.00      0.84        19
+
+    accuracy                           0.82        38
+   macro avg       0.87      0.82      0.81        38
+weighted avg       0.87      0.82      0.81        38
+"
+Posttraumatic stress disorder,df_dict_psd_band,psd_delta,0.9473684210526315,0.9335180055401662,"              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95        19
+           1       0.95      0.95      0.95        19
+
+    accuracy                           0.95        38
+   macro avg       0.95      0.95      0.95        38
+weighted avg       0.95      0.95      0.95        38
+"
+Posttraumatic stress disorder,df_dict_psd_band,psd_theta,0.9473684210526315,0.9806094182825486,"              precision    recall  f1-score   support
+
+           0       1.00      0.89      0.94        19
+           1       0.90      1.00      0.95        19
+
+    accuracy                           0.95        38
+   macro avg       0.95      0.95      0.95        38
+weighted avg       0.95      0.95      0.95        38
+"
+Posttraumatic stress disorder,df_dict_psd_band,psd_alpha,0.8947368421052632,0.922437673130194,"              precision    recall  f1-score   support
+
+           0       0.86      0.95      0.90        19
+           1       0.94      0.84      0.89        19
+
+    accuracy                           0.89        38
+   macro avg       0.90      0.89      0.89        38
+weighted avg       0.90      0.89      0.89        38
+"
+Posttraumatic stress disorder,df_dict_psd_band,psd_beta,0.9210526315789473,0.9113573407202217,"              precision    recall  f1-score   support
+
+           0       0.90      0.95      0.92        19
+           1       0.94      0.89      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Posttraumatic stress disorder,df_dict_psd_band,psd_highbeta,0.9210526315789473,0.9778393351800554,"              precision    recall  f1-score   support
+
+           0       0.86      1.00      0.93        19
+           1       1.00      0.84      0.91        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.92      0.92        38
+weighted avg       0.93      0.92      0.92        38
+"
+Posttraumatic stress disorder,df_dict_psd_band,psd_gamma,0.9210526315789473,0.9473684210526315,"              precision    recall  f1-score   support
+
+           0       0.90      0.95      0.92        19
+           1       0.94      0.89      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Posttraumatic stress disorder,df_dict_fc_band,fc_delta,0.868421052631579,0.9252077562326869,"              precision    recall  f1-score   support
+
+           0       0.89      0.84      0.86        19
+           1       0.85      0.89      0.87        19
+
+    accuracy                           0.87        38
+   macro avg       0.87      0.87      0.87        38
+weighted avg       0.87      0.87      0.87        38
+"
+Posttraumatic stress disorder,df_dict_fc_band,fc_theta,0.7631578947368421,0.7340720221606648,"              precision    recall  f1-score   support
+
+           0       0.81      0.68      0.74        19
+           1       0.73      0.84      0.78        19
+
+    accuracy                           0.76        38
+   macro avg       0.77      0.76      0.76        38
+weighted avg       0.77      0.76      0.76        38
+"
+Posttraumatic stress disorder,df_dict_fc_band,fc_alpha,0.9210526315789473,0.9501385041551247,"              precision    recall  f1-score   support
+
+           0       0.94      0.89      0.92        19
+           1       0.90      0.95      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Posttraumatic stress disorder,df_dict_fc_band,fc_beta,0.7631578947368421,0.7285318559556786,"              precision    recall  f1-score   support
+
+           0       0.86      0.63      0.73        19
+           1       0.71      0.89      0.79        19
+
+    accuracy                           0.76        38
+   macro avg       0.78      0.76      0.76        38
+weighted avg       0.78      0.76      0.76        38
+"
+Posttraumatic stress disorder,df_dict_fc_band,fc_highbeta,0.9473684210526315,0.9445983379501385,"              precision    recall  f1-score   support
+
+           0       1.00      0.89      0.94        19
+           1       0.90      1.00      0.95        19
+
+    accuracy                           0.95        38
+   macro avg       0.95      0.95      0.95        38
+weighted avg       0.95      0.95      0.95        38
+"
+Posttraumatic stress disorder,df_dict_fc_band,fc_gamma,0.868421052631579,0.9473684210526316,"              precision    recall  f1-score   support
+
+           0       1.00      0.74      0.85        19
+           1       0.79      1.00      0.88        19
+
+    accuracy                           0.87        38
+   macro avg       0.90      0.87      0.87        38
+weighted avg       0.90      0.87      0.87        38
+"
+Posttraumatic stress disorder,df_dict_psd_fc_band,psd_fc_delta,0.8947368421052632,0.9058171745152355,"              precision    recall  f1-score   support
+
+           0       0.86      0.95      0.90        19
+           1       0.94      0.84      0.89        19
+
+    accuracy                           0.89        38
+   macro avg       0.90      0.89      0.89        38
+weighted avg       0.90      0.89      0.89        38
+"
+Posttraumatic stress disorder,df_dict_psd_fc_band,psd_fc_theta,0.9210526315789473,0.9473684210526316,"              precision    recall  f1-score   support
+
+           0       0.90      0.95      0.92        19
+           1       0.94      0.89      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Posttraumatic stress disorder,df_dict_psd_fc_band,psd_fc_alpha,0.9210526315789473,0.8975069252077561,"              precision    recall  f1-score   support
+
+           0       1.00      0.84      0.91        19
+           1       0.86      1.00      0.93        19
+
+    accuracy                           0.92        38
+   macro avg       0.93      0.92      0.92        38
+weighted avg       0.93      0.92      0.92        38
+"
+Posttraumatic stress disorder,df_dict_psd_fc_band,psd_fc_beta,0.868421052631579,0.853185595567867,"              precision    recall  f1-score   support
+
+           0       0.89      0.84      0.86        19
+           1       0.85      0.89      0.87        19
+
+    accuracy                           0.87        38
+   macro avg       0.87      0.87      0.87        38
+weighted avg       0.87      0.87      0.87        38
+"
+Posttraumatic stress disorder,df_dict_psd_fc_band,psd_fc_highbeta,0.9210526315789473,0.9529085872576177,"              precision    recall  f1-score   support
+
+           0       0.94      0.89      0.92        19
+           1       0.90      0.95      0.92        19
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38
+"
+Posttraumatic stress disorder,df_dict_psd_fc_band,psd_fc_gamma,0.7368421052631579,0.7783933518005539,"              precision    recall  f1-score   support
+
+           0       0.76      0.68      0.72        19
+           1       0.71      0.79      0.75        19
+
+    accuracy                           0.74        38
+   macro avg       0.74      0.74      0.74        38
+weighted avg       0.74      0.74      0.74        38
+"
+Social anxiety disorder,df_dict_psd_all_bands,psd_all_bands,0.7631578947368421,0.8199445983379501,"              precision    recall  f1-score   support
+
+           0       0.71      0.89      0.79        19
+           1       0.86      0.63      0.73        19
+
+    accuracy                           0.76        38
+   macro avg       0.78      0.76      0.76        38
+weighted avg       0.78      0.76      0.76        38
+"
+Social anxiety disorder,df_dict_fc_all_bands,fc_all_bands,0.7894736842105263,0.8587257617728531,"              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78        19
+           1       0.76      0.84      0.80        19
+
+    accuracy                           0.79        38
+   macro avg       0.79      0.79      0.79        38
+weighted avg       0.79      0.79      0.79        38
+"
+Social anxiety disorder,df_dict_psd_fc_all_bands,psd_fc_all_bands,0.7631578947368421,0.814404432132964,"              precision    recall  f1-score   support
+
+           0       0.81      0.68      0.74        19
+           1       0.73      0.84      0.78        19
+
+    accuracy                           0.76        38
+   macro avg       0.77      0.76      0.76        38
+weighted avg       0.77      0.76      0.76        38
+"
+Social anxiety disorder,df_dict_psd_band,psd_delta,0.868421052631579,0.889196675900277,"              precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88        19
+           1       0.94      0.79      0.86        19
+
+    accuracy                           0.87        38
+   macro avg       0.88      0.87      0.87        38
+weighted avg       0.88      0.87      0.87        38
+"
+Social anxiety disorder,df_dict_psd_band,psd_theta,0.7894736842105263,0.8337950138504155,"              precision    recall  f1-score   support
+
+           0       0.70      1.00      0.83        19
+           1       1.00      0.58      0.73        19
+
+    accuracy                           0.79        38
+   macro avg       0.85      0.79      0.78        38
+weighted avg       0.85      0.79      0.78        38
+"
+Social anxiety disorder,df_dict_psd_band,psd_alpha,0.7631578947368421,0.8504155124653741,"              precision    recall  f1-score   support
+
+           0       0.73      0.84      0.78        19
+           1       0.81      0.68      0.74        19
+
+    accuracy                           0.76        38
+   macro avg       0.77      0.76      0.76        38
+weighted avg       0.77      0.76      0.76        38
+"
+Social anxiety disorder,df_dict_psd_band,psd_beta,0.8157894736842105,0.8282548476454293,"              precision    recall  f1-score   support
+
+           0       0.77      0.89      0.83        19
+           1       0.88      0.74      0.80        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.81        38
+weighted avg       0.82      0.82      0.81        38
+"
+Social anxiety disorder,df_dict_psd_band,psd_highbeta,0.7894736842105263,0.8310249307479225,"              precision    recall  f1-score   support
+
+           0       0.79      0.79      0.79        19
+           1       0.79      0.79      0.79        19
+
+    accuracy                           0.79        38
+   macro avg       0.79      0.79      0.79        38
+weighted avg       0.79      0.79      0.79        38
+"
+Social anxiety disorder,df_dict_psd_band,psd_gamma,0.8157894736842105,0.8642659279778393,"              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82        19
+           1       0.83      0.79      0.81        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.82        38
+weighted avg       0.82      0.82      0.82        38
+"
+Social anxiety disorder,df_dict_fc_band,fc_delta,0.7105263157894737,0.7340720221606648,"              precision    recall  f1-score   support
+
+           0       0.63      1.00      0.78        19
+           1       1.00      0.42      0.59        19
+
+    accuracy                           0.71        38
+   macro avg       0.82      0.71      0.68        38
+weighted avg       0.82      0.71      0.68        38
+"
+Social anxiety disorder,df_dict_fc_band,fc_theta,0.7368421052631579,0.7008310249307479,"              precision    recall  f1-score   support
+
+           0       0.91      0.53      0.67        19
+           1       0.67      0.95      0.78        19
+
+    accuracy                           0.74        38
+   macro avg       0.79      0.74      0.72        38
+weighted avg       0.79      0.74      0.72        38
+"
+Social anxiety disorder,df_dict_fc_band,fc_alpha,0.8421052631578947,0.8670360110803323,"              precision    recall  f1-score   support
+
+           0       0.88      0.79      0.83        19
+           1       0.81      0.89      0.85        19
+
+    accuracy                           0.84        38
+   macro avg       0.85      0.84      0.84        38
+weighted avg       0.85      0.84      0.84        38
+"
+Social anxiety disorder,df_dict_fc_band,fc_beta,0.7631578947368421,0.7839335180055402,"              precision    recall  f1-score   support
+
+           0       0.75      0.79      0.77        19
+           1       0.78      0.74      0.76        19
+
+    accuracy                           0.76        38
+   macro avg       0.76      0.76      0.76        38
+weighted avg       0.76      0.76      0.76        38
+"
+Social anxiety disorder,df_dict_fc_band,fc_highbeta,0.8157894736842105,0.8060941828254847,"              precision    recall  f1-score   support
+
+           0       0.83      0.79      0.81        19
+           1       0.80      0.84      0.82        19
+
+    accuracy                           0.82        38
+   macro avg       0.82      0.82      0.82        38
+weighted avg       0.82      0.82      0.82        38
+"
+Social anxiety disorder,df_dict_fc_band,fc_gamma,0.8421052631578947,0.853185595567867,"              precision    recall  f1-score   support
+
+           0       0.78      0.95      0.86        19
+           1       0.93      0.74      0.82        19
+
+    accuracy                           0.84        38
+   macro avg       0.86      0.84      0.84        38
+weighted avg       0.86      0.84      0.84        38
+"
+Social anxiety disorder,df_dict_psd_fc_band,psd_fc_delta,0.7631578947368421,0.8060941828254848,"              precision    recall  f1-score   support
+
+           0       0.69      0.95      0.80        19
+           1       0.92      0.58      0.71        19
+
+    accuracy                           0.76        38
+   macro avg       0.80      0.76      0.75        38
+weighted avg       0.80      0.76      0.75        38
+"
+Social anxiety disorder,df_dict_psd_fc_band,psd_fc_theta,0.7368421052631579,0.6952908587257618,"              precision    recall  f1-score   support
+
+           0       0.71      0.79      0.75        19
+           1       0.76      0.68      0.72        19
+
+    accuracy                           0.74        38
+   macro avg       0.74      0.74      0.74        38
+weighted avg       0.74      0.74      0.74        38
+"
+Social anxiety disorder,df_dict_psd_fc_band,psd_fc_alpha,0.7368421052631579,0.7562326869806094,"              precision    recall  f1-score   support
+
+           0       0.80      0.63      0.71        19
+           1       0.70      0.84      0.76        19
+
+    accuracy                           0.74        38
+   macro avg       0.75      0.74      0.73        38
+weighted avg       0.75      0.74      0.73        38
+"
+Social anxiety disorder,df_dict_psd_fc_band,psd_fc_beta,0.8421052631578947,0.8227146814404431,"              precision    recall  f1-score   support
+
+           0       0.88      0.79      0.83        19
+           1       0.81      0.89      0.85        19
+
+    accuracy                           0.84        38
+   macro avg       0.85      0.84      0.84        38
+weighted avg       0.85      0.84      0.84        38
+"
+Social anxiety disorder,df_dict_psd_fc_band,psd_fc_highbeta,0.7105263157894737,0.7506925207756233,"              precision    recall  f1-score   support
+
+           0       0.79      0.58      0.67        19
+           1       0.67      0.84      0.74        19
+
+    accuracy                           0.71        38
+   macro avg       0.73      0.71      0.71        38
+weighted avg       0.73      0.71      0.71        38
+"
+Social anxiety disorder,df_dict_psd_fc_band,psd_fc_gamma,0.868421052631579,0.894736842105263,"              precision    recall  f1-score   support
+
+           0       0.89      0.84      0.86        19
+           1       0.85      0.89      0.87        19
+
+    accuracy                           0.87        38
+   macro avg       0.87      0.87      0.87        38
+weighted avg       0.87      0.87      0.87        38
+"
