@@ -10,7 +10,7 @@ class PCAVarianceAnalyzer:
         self.pca = None
         self.explained_variance_ = None
         self.cumulative_variance_ = None
-        self.n_components = {}
+        self.n_components_ = {}
     
     def fit(self, X):
 
