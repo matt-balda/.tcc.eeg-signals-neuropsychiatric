@@ -1,0 +1,13 @@
+Main Disorder,Specific Disorder,N,Sex (%M/%F),Age (Mean ± SD),Age (min–max),Education (Mean ± SD),Education (min–max),IQ (Mean ± SD),IQ (min–max)
+Addictive disorder,Alcohol use disorder,93,80.6 / 19.4,34.2 ± 11.9,19–64,13.3 ± 3.1,1–18,103.4 ± 13.6,68–130
+Addictive disorder,Behavioral addiction disorder,93,95.7 / 4.3,25.1 ± 7.5,18–68,13.2 ± 1.9,7–18,104.4 ± 18.5,56–142
+Anxiety disorder,Panic disorder,59,64.4 / 35.6,31.0 ± 11.3,19–61,13.4 ± 2.9,0–18,100.3 ± 14.8,72–142
+Anxiety disorder,Social anxiety disorder,48,85.4 / 14.6,26.5 ± 9.1,19–58,12.8 ± 1.6,10–16,95.9 ± 17.9,49–128
+Healthy control,Healthy control,95,63.2 / 36.8,25.7 ± 4.5,18–42,14.9 ± 2.1,11–20,116.2 ± 10.9,88–141
+Mood disorder,Bipolar disorder,67,62.7 / 37.3,29.7 ± 11.0,18–62,14.1 ± 2.2,6–19,100.8 ± 17.0,60–134
+Mood disorder,Depressive disorder,199,54.8 / 45.2,31.3 ± 13.2,18–70,13.0 ± 2.5,1–18,101.8 ± 15.3,61–145
+Obsessive compulsive disorder,Obsessive compulsitve disorder,46,82.6 / 17.4,28.5 ± 9.8,18–70,13.9 ± 2.3,5–18,107.8 ± 15.2,76–138
+Schizophrenia,Schizophrenia,117,55.6 / 44.4,31.7 ± 12.1,19–72,12.8 ± 2.9,0–18,89.6 ± 17.5,50–131
+Trauma and stress related disorder,Acute stress disorder,38,7.9 / 92.1,28.9 ± 9.0,19–55,14.3 ± 2.3,8–20,104.1 ± 15.4,76–134
+Trauma and stress related disorder,Adjustment disorder,38,71.1 / 28.9,34.2 ± 14.9,18–67,13.2 ± 2.4,6–18,94.2 ± 15.4,60–122
+Trauma and stress related disorder,Posttraumatic stress disorder,52,26.9 / 73.1,42.7 ± 13.0,20–68,13.4 ± 2.5,6–18,98.9 ± 15.7,53–137
