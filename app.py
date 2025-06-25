@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import numpy as np
+import os, psutil
 
 st.set_page_config(page_title="EEG Exploration", layout="wide")
 st.title("🧠 Data Exploration - Park et al. (2021)")
@@ -38,7 +39,6 @@ psd_cols = df.filter(regex=r'^AB').columns.tolist()
 fc_cols = df.filter(regex=r'^COH').columns.tolist()
 freq_bands = ['delta', 'theta', 'alpha', 'beta', 'highbeta', 'gamma']
 
-# Sidebar
 st.sidebar.subheader("🔢 Variable Selection")
 
 select_all_quant = st.sidebar.checkbox("Select all quantitative variables")
@@ -72,7 +72,6 @@ selected_cols = quant_selected + psd_selected + fc_selected
 
 if selected_cols:
     df_sel = df[selected_cols]
-
     st.subheader("📄 Preview of Selected Data")
     st.dataframe(df_sel.head())
 
@@ -80,12 +79,10 @@ if selected_cols:
         "📈 Descriptive Stats", "🧪 Correlation", "📊 Univariate Plots", "🔍 PCA (Dim. Reduction)"
     ])
 
-    # Descriptive Statistics
     with tab1:
         st.subheader("📈 Descriptive Statistics")
         st.dataframe(df_sel.describe().T)
 
-    # Correlation Heatmap
     with tab2:
         st.subheader("🧪 Correlation Heatmap")
 
@@ -101,7 +98,6 @@ if selected_cols:
 
         fig, ax = plt.subplots(figsize=(max(10, len(corr.columns)*0.5), max(8, len(corr.columns)*0.5)))
         cax = ax.matshow(corr.values, cmap=color_palette, vmin=-1, vmax=1)
-
         ax.set_xticks(range(len(corr.columns)))
         ax.set_yticks(range(len(corr.columns)))
         ax.set_xticklabels(corr.columns, rotation=90, fontsize=8)
@@ -113,13 +109,12 @@ if selected_cols:
             for j in range(len(corr.columns)):
                 ax.text(j, i, f"{corr.iloc[i, j]:.2f}", ha='center', va='center', fontsize=6)
 
+        plt.tight_layout()
         st.pyplot(fig)
         plt.close(fig)
 
-    # Univariate Visualizations
     with tab3:
         st.subheader("📊 Univariate Visualizations")
-
         mode = st.radio("Visualization mode:", ["Manual", "Show All"])
 
         if mode == "Manual":
@@ -128,49 +123,56 @@ if selected_cols:
 
             with col1:
                 fig_hist, ax_hist = plt.subplots()
-                sns.histplot(df[var_to_plot], kde=True, ax=ax_hist, color="skyblue")
+                sns.histplot(df_sel[var_to_plot], kde=True, ax=ax_hist, color="skyblue")
                 ax_hist.set_title(f"Histogram of {var_to_plot}")
+                plt.tight_layout()
                 st.pyplot(fig_hist)
                 plt.close(fig_hist)
 
             with col2:
                 fig_box, ax_box = plt.subplots()
-                sns.boxplot(y=df[var_to_plot], ax=ax_box, color="lightcoral")
+                sns.boxplot(y=df_sel[var_to_plot], ax=ax_box, color="lightcoral")
                 ax_box.set_title(f"Boxplot of {var_to_plot}")
+                plt.tight_layout()
                 st.pyplot(fig_box)
                 plt.close(fig_box)
 
-        else:  # Show All
-            st.info(f"🔍 Rendering {len(selected_cols)} variables. This may take a few seconds...")
+        else:
+            if len(selected_cols) > 20:
+                st.warning("⚠️ Too many variables selected. Limit 'Show All' to 20 variables.")
+                st.stop()
+
+            st.info(f"🔍 Rendering {len(selected_cols)} variables...")
             for var in selected_cols:
                 st.markdown(f"### 📌 Variable: `{var}`")
                 col1, col2 = st.columns(2)
 
                 with col1:
                     fig_hist, ax_hist = plt.subplots()
-                    sns.histplot(df[var], kde=True, ax=ax_hist, color="skyblue")
+                    sns.histplot(df_sel[var], kde=True, ax=ax_hist, color="skyblue")
                     ax_hist.set_title(f"Histogram of {var}")
+                    plt.tight_layout()
                     st.pyplot(fig_hist)
                     plt.close(fig_hist)
 
                 with col2:
                     fig_box, ax_box = plt.subplots()
-                    sns.boxplot(y=df[var], ax=ax_box, color="lightcoral")
+                    sns.boxplot(y=df_sel[var], ax=ax_box, color="lightcoral")
                     ax_box.set_title(f"Boxplot of {var}")
+                    plt.tight_layout()
                     st.pyplot(fig_box)
                     plt.close(fig_box)
 
                 st.markdown("---")
 
-    # PCA
     with tab4:
         combined_cols = psd_selected + fc_selected
         if len(combined_cols) >= 3:
             st.subheader("🔍 PCA for Dimensionality Reduction")
-            max_comp = min(100, len(combined_cols), len(df))
+            max_comp = min(20, len(combined_cols), len(df_sel))
             n_components = st.slider("Number of principal components:", 2, max_comp, 2)
 
-            data_scaled = scale_data(df[combined_cols])
+            data_scaled = scale_data(df_sel[combined_cols])
             components, explained = compute_pca(data_scaled, n_components)
             df_pca = pd.DataFrame(components, columns=[f'PC{i+1}' for i in range(n_components)])
 
@@ -185,6 +187,7 @@ if selected_cols:
             fig_pca, ax_pca = plt.subplots()
             sns.scatterplot(x=pc_x, y=pc_y, data=df_pca, alpha=0.7, s=40)
             ax_pca.set_title(f"PCA - {pc_x} vs {pc_y}")
+            plt.tight_layout()
             st.pyplot(fig_pca)
             plt.close(fig_pca)
         else:
@@ -195,3 +198,7 @@ if selected_cols:
 
 else:
     st.warning("⚠️ Please select at least one variable for visualization.")
+
+# Show memory usage
+ram = psutil.Process(os.getpid()).memory_info().rss / 1024**2
+st.caption(f"💾 RAM usage: {ram:.2f} MB")
