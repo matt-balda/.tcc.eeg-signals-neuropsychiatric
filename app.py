@@ -44,24 +44,26 @@ st.sidebar.subheader("🔢 Variable Selection")
 select_all_quant = st.sidebar.checkbox("Select all quantitative variables")
 quant_selected = st.sidebar.multiselect("🧮 Quantitative variables:", quant_vars, default=quant_vars if select_all_quant else [])
 
+# PSD Band selection (commented out all options for all features)
 st.sidebar.markdown("#### 📊 PSD Bands")
-select_all_psd = st.sidebar.checkbox("Select all PSD bands")
+# select_all_psd = st.sidebar.checkbox("Select all PSD bands")
 select_by_band_psd = st.sidebar.multiselect("Select specific bands (PSD):", freq_bands)
 
-if select_all_psd:
-    psd_selected = psd_cols
-elif select_by_band_psd:
+# if select_all_psd:
+#     psd_selected = psd_cols
+if select_by_band_psd:
     psd_selected = [col for col in psd_cols if any(band in col.lower() for band in select_by_band_psd)]
 else:
     psd_selected = st.sidebar.multiselect("Manual selection (PSD):", psd_cols)
 
+# FC Band selection (commented out all options for all features)
 st.sidebar.markdown("#### 🔗 Functional Connectivity (FC)")
-select_all_fc = st.sidebar.checkbox("Select all FC connections")
+# select_all_fc = st.sidebar.checkbox("Select all FC connections")
 select_by_band_fc = st.sidebar.multiselect("Select specific bands (FC):", freq_bands, key='fc_band')
 
-if select_all_fc:
-    fc_selected = fc_cols
-elif select_by_band_fc:
+# if select_all_fc:
+#     fc_selected = fc_cols
+if select_by_band_fc:
     fc_selected = [col for col in fc_cols if any(band in col.lower() for band in select_by_band_fc)]
 else:
     fc_selected = st.sidebar.multiselect("Manual selection (FC):", fc_cols, key='fc_manual')
@@ -199,6 +201,5 @@ if selected_cols:
 else:
     st.warning("⚠️ Please select at least one variable for visualization.")
 
-# Show memory usage
 ram = psutil.Process(os.getpid()).memory_info().rss / 1024**2
 st.caption(f"💾 RAM usage: {ram:.2f} MB")
