@@ -89,7 +89,6 @@ if selected_cols:
     with tab2:
         st.subheader("🧪 Correlation Heatmap")
 
-        # Reduce FC variables to 10% if all selected
         if fc_selected == fc_cols:
             st.info("🔎 Reducing FC variables to 10% to avoid slow rendering.")
             reduced_fc = fc_selected[:max(1, int(len(fc_selected) * 0.1))]
@@ -115,6 +114,7 @@ if selected_cols:
                 ax.text(j, i, f"{corr.iloc[i, j]:.2f}", ha='center', va='center', fontsize=6)
 
         st.pyplot(fig)
+        plt.close(fig)
 
     # Univariate Visualizations
     with tab3:
@@ -131,12 +131,14 @@ if selected_cols:
                 sns.histplot(df[var_to_plot], kde=True, ax=ax_hist, color="skyblue")
                 ax_hist.set_title(f"Histogram of {var_to_plot}")
                 st.pyplot(fig_hist)
+                plt.close(fig_hist)
 
             with col2:
                 fig_box, ax_box = plt.subplots()
                 sns.boxplot(y=df[var_to_plot], ax=ax_box, color="lightcoral")
                 ax_box.set_title(f"Boxplot of {var_to_plot}")
                 st.pyplot(fig_box)
+                plt.close(fig_box)
 
         else:  # Show All
             st.info(f"🔍 Rendering {len(selected_cols)} variables. This may take a few seconds...")
@@ -149,12 +151,14 @@ if selected_cols:
                     sns.histplot(df[var], kde=True, ax=ax_hist, color="skyblue")
                     ax_hist.set_title(f"Histogram of {var}")
                     st.pyplot(fig_hist)
+                    plt.close(fig_hist)
 
                 with col2:
                     fig_box, ax_box = plt.subplots()
                     sns.boxplot(y=df[var], ax=ax_box, color="lightcoral")
                     ax_box.set_title(f"Boxplot of {var}")
                     st.pyplot(fig_box)
+                    plt.close(fig_box)
 
                 st.markdown("---")
 
@@ -182,10 +186,10 @@ if selected_cols:
             sns.scatterplot(x=pc_x, y=pc_y, data=df_pca, alpha=0.7, s=40)
             ax_pca.set_title(f"PCA - {pc_x} vs {pc_y}")
             st.pyplot(fig_pca)
+            plt.close(fig_pca)
         else:
             st.info("ℹ️ Select at least 3 PSD or FC variables to enable PCA.")
 
-    # Download filtered data
     csv = df_sel.to_csv(index=False).encode('utf-8')
     st.download_button("⬇️ Download Filtered Data", data=csv, file_name='filtered_data.csv', mime='text/csv')
 
