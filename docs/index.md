@@ -1,25 +1,19 @@
-# Início
+# Start
 
-## Contextualização
+## Context
 
-Contexto necessário para entender o problema a ser abordado.
+## Problem
 
-## Problema
+## Proposal
 
-O real problema que será abordado no projeto.
+## Team
 
-## Proposta
-
-Informações sobre o que será criado como solução tecnológica ao final do projeto.
-
-## Equipe
-
- - [Nome do desenvolvedor #1](url-do-github-do-desenvolvedor-#1)
+ - [Developer #1's Name](github-url-of-developer-#1)
 
 Generating the docs
 ----------
 
-Use [mkdocs](http://www.mkdocs.org/) structure to update the documentation. 
+Use the [mkdocs](http://www.mkdocs.org/) structure to update the documentation.
 
 Build locally with:
 

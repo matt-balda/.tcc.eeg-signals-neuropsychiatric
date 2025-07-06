@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "balda-neurokitx"
+name = "BrainDx"
 version = "0.0.1"
 description = ""
 authors = ["Mateus Balda Mota", "Alessandro Bof de Oliveira"]

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='balda-neurokitx',
+    name='BrainDx',
     version='0.0.1',
     author='Mateus Balda Mota',
     author_email='mateusbalda89@gmail.com',
