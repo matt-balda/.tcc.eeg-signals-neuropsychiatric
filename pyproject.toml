@@ -26,3 +26,11 @@ pytest = "^5.2"
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "mypy>=2.1.0",
+    "pytest>=9.0.3",
+    "ruff>=0.15.16",
+]
