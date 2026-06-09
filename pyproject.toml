@@ -1,36 +1,48 @@
-[tool.poetry]
+[project]
 name = "BrainDx"
 version = "0.0.1"
-description = ""
-authors = ["Mateus Balda Mota", "Alessandro Bof de Oliveira"]
+description = " "
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
 
-[tool.poetry.dependencies]
-python = "~3.10"
-numpy = "^2.1.2"
-pandas = "^2.2.3"
-matplotlib = "^3.9.2"
-jupyterlab = "^4.2.5"
-seaborn = "^0.13.2"
-scikit-learn = "^1.5.2"
-mne = "^1.8.0"
-# mkdocs = "^1.3.0"
-# streamlit = "^1.10.0"
-# mkdocs-material = "^8.3.9"
-# pre-commit = "^2.20.0"
-plotly = "^5.24.1"
-imblearn = "^0.0"
+authors = [
+    { name = "Mateus Balda Mota" },
+    { name = "Alessandro Bof de Oliveira" }
+]
 
-[tool.poetry.dev-dependencies]
-pytest = "^5.2"
-
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+dependencies = [
+    "numpy>=2.1.2",
+    "pandas>=2.2.3",
+    "matplotlib>=3.9.2",
+    "jupyterlab>=4.2.5",
+    "seaborn>=0.13.2",
+    "scikit-learn>=1.5.2",
+    "mne>=1.8.0",
+    "plotly>=5.24.1",
+    "imbalanced-learn>=0.12.4",
+]
 
 [dependency-groups]
 dev = [
-    "black>=26.5.1",
-    "mypy>=2.1.0",
-    "pytest>=9.0.3",
+    "black>=25.0.0",
+    "mypy>=1.15.0",
+    "pytest>=8.3.0",
     "ruff>=0.15.16",
+    "pre-commit>=4.3.0",
 ]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.black]
+line-length = 88
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+ignore_missing_imports = true
+
+[build-system]
+requires = ["setuptools>=75.0", "wheel"]
+build-backend = "setuptools.build_meta"
